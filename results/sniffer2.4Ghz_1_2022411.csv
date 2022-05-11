@@ -1,0 +1,542 @@
+SNIFFERID;TIMESTAMP;TIPO;SSID;RSSI;MAC_O;FREC;CANAL
+sniffer2.4Ghz_1;5/11/2022, 7:07:09 AM:313;PROBE REQUEST;MOVISTAR_FC77;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:420;PROBE REQUEST;SSID oculto o desconocido;-98 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:424;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:428;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:431;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:434;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:436;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:438;PROBE REQUEST;SSID oculto o desconocido;-28 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:12 AM:441;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:14 AM:500;PROBE REQUEST;CEEIM_FREE;-106 dBm;60:e3:2b:92:2f:20;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:16 AM:580;PROBE REQUEST;SSID oculto o desconocido;-80 dBm;1e:1c:81:90:3d:e5;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:16 AM:582;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;1e:1c:81:90:3d:e5;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:17 AM:620;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;12:0a:9e:02:f3:26;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:18 AM:660;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:18 AM:662;PROBE REQUEST;SSID oculto o desconocido;-96 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:18 AM:664;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:18 AM:666;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:700;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:704;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:706;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:711;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:713;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:708;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:715;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:717;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:718;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:720;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:722;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:728;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:726;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:729;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:730;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:732;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:733;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:736;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:737;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:738;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:734;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:723;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:07:19 AM:725;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:740;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:742;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:743;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:745;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:747;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:748;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:750;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:752;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:754;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:755;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:757;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2457 Mhz;10
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:759;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2457 Mhz;10
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:761;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:762;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:764;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:765;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:766;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:768;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;ce:3c:a6:c3:d2:5b;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:769;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:771;PROBE REQUEST;SSID oculto o desconocido;-13 dBm;e2:f5:ad:4f:49:ae;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:773;PROBE REQUEST;SSID oculto o desconocido;-15 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:775;PROBE REQUEST;SSID oculto o desconocido;-15 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:777;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:779;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:780;PROBE REQUEST;SSID oculto o desconocido;-15 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:781;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:783;PROBE REQUEST;SSID oculto o desconocido;-21 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:20 AM:784;PROBE REQUEST;SSID oculto o desconocido;-18 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:780;PROBE REQUEST;SSID oculto o desconocido;-13 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:783;PROBE REQUEST;SSID oculto o desconocido;-13 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:785;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:787;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:789;PROBE REQUEST;CEEIM_FREE;-40 dBm;18:26:49:af:da:d4;5540 Mhz;145.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:21 AM:792;PROBE REQUEST;CEEIM_FREE;-39 dBm;18:26:49:af:da:d4;5540 Mhz;145.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:820;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:822;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:824;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:825;PROBE REQUEST;SSID oculto o desconocido;-25 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:827;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:829;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:831;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:833;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:835;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:22 AM:837;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:860;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:862;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:863;PROBE REQUEST;SSID oculto o desconocido;-11 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:868;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:869;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:871;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:873;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:874;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:876;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:877;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:879;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:23 AM:880;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:24 AM:900;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:28 AM:20;PROBE REQUEST;SSID oculto o desconocido;-70 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:30 AM:100;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;be:a8:8a:c2:3c:57;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:30 AM:102;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:32 AM:180;PROBE REQUEST;SSID oculto o desconocido;-98 dBm;66:7d:f0:d0:ce:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:32 AM:182;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;66:7d:f0:d0:ce:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:32 AM:184;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;9a:84:9a:50:55:91;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:40 AM:500;PROBE REQUEST;SSID oculto o desconocido;-94 dBm;62:be:3c:d2:f9:00;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:50 AM:900;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;66:7d:f0:d0:ce:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:52 AM:980;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;8e:3a:8f:0f:45:d0;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:57 AM:140;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;0e:1f:5f:90:11:33;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:57 AM:143;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;1e:46:32:b9:8c:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:07:57 AM:145;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;1e:46:32:b9:8c:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:01 AM:300;PROBE REQUEST;MOVISTAR_FC77;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:02 AM:340;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;02:e0:98:8b:33:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:02 AM:342;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;02:e0:98:8b:33:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:03 AM:380;PROBE REQUEST;CEEIM;-106 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:460;PROBE REQUEST;SSID oculto o desconocido;-68 dBm;d6:5e:4a:6a:20:b4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:462;PROBE REQUEST;HUAWEI-52NZ;-68 dBm;d6:5e:4a:6a:20:b4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:464;PROBE REQUEST;CEEIM_FREE;-106 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:467;PROBE REQUEST;CEEIM_FREE;-106 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:469;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;12:3f:44:96:87:95;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:05 AM:471;PROBE REQUEST;SSID oculto o desconocido;-84 dBm;12:3f:44:96:87:95;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:06 AM:500;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;12:3f:44:96:87:95;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:06 AM:503;PROBE REQUEST;SSID oculto o desconocido;-80 dBm;12:3f:44:96:87:95;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:06 AM:505;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:08 AM:580;PROBE REQUEST;HUAWEI-52NZ;-76 dBm;06:50:14:d0:07:85;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:08 AM:582;PROBE REQUEST;SSID oculto o desconocido;-74 dBm;06:50:14:d0:07:85;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:08 AM:583;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;06:50:14:d0:07:85;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:09 AM:620;PROBE REQUEST;MOVISTAR_FC77;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:09 AM:622;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:09 AM:624;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:10 AM:660;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;c6:f5:22:fd:f0:cd;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:900;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;a6:01:95:db:7c:48;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:902;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;02:54:9d:c3:41:91;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:903;PROBE REQUEST;SSID oculto o desconocido;-76 dBm;02:54:9d:c3:41:91;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:905;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;02:54:9d:c3:41:91;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:906;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:908;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:909;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:911;PROBE REQUEST;SSID oculto o desconocido;-28 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:16 AM:912;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:17 AM:940;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:17 AM:942;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:20 AM:20;PROBE REQUEST;SSID oculto o desconocido;-52 dBm;18:26:49:af:da:d4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:20 AM:22;PROBE REQUEST;SSID oculto o desconocido;-47 dBm;18:26:49:af:da:d4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:21 AM:60;PROBE REQUEST;CEEIM_FREE;-82 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:21 AM:62;PROBE REQUEST;CEEIM_FREE;-78 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:23 AM:140;PROBE REQUEST;CEEIM;-106 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:23 AM:142;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:23 AM:144;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:23 AM:145;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:08:23 AM:147;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:180;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:182;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:184;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:186;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:188;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:190;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:192;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:193;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:195;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:196;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:198;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:199;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:201;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:202;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:204;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:205;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:206;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:208;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:209;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:210;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:211;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:213;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:214;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:215;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:217;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:218;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2457 Mhz;10
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:219;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:220;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:222;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:08:24 AM:223;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:220;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:222;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:224;PROBE REQUEST;SSID oculto o desconocido;-13 dBm;ce:3c:a6:c3:d2:5b;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:226;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:228;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:230;PROBE REQUEST;SSID oculto o desconocido;-16 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:232;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:234;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:236;PROBE REQUEST;SSID oculto o desconocido;-22 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:237;PROBE REQUEST;SSID oculto o desconocido;-18 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:239;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:241;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:243;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;e2:f5:ad:4f:49:ae;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:244;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:245;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:25 AM:247;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:300;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:302;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:304;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:306;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:308;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:310;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:312;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:315;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:316;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:318;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:320;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:326;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:327;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:329;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:330;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:332;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:333;PROBE REQUEST;SSID oculto o desconocido;-23 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:27 AM:334;PROBE REQUEST;SSID oculto o desconocido;-23 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:08:28 AM:340;PROBE REQUEST;HUAWEI-52NZ;-32 dBm;d2:a7:04:9e:e5:a4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:28 AM:342;PROBE REQUEST;HUAWEI-52NZ;-42 dBm;d2:a7:04:9e:e5:a4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:30 AM:420;PROBE REQUEST;SSID oculto o desconocido;-94 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:30 AM:422;PROBE REQUEST;SSID oculto o desconocido;-104 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:30 AM:424;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:30 AM:426;PROBE REQUEST;SSID oculto o desconocido;-102 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:32 AM:500;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;1e:46:32:b9:8c:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:32 AM:503;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;1e:46:32:b9:8c:5b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:35 AM:620;PROBE REQUEST;SSID oculto o desconocido;-62 dBm;26:c4:97:a2:b2:c6;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:35 AM:622;PROBE REQUEST;CEEIM_FREE;-104 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:37 AM:700;PROBE REQUEST;CEEIM_FREE;-68 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:38 AM:740;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;fa:85:e6:21:78:bf;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:38 AM:742;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;fa:85:e6:21:78:bf;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:38 AM:745;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;fa:85:e6:21:78:bf;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:38 AM:747;PROBE REQUEST;CEEIM_FREE;-68 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:38 AM:749;PROBE REQUEST;CEEIM;-106 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:42 AM:900;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:42 AM:902;PROBE REQUEST;SSID oculto o desconocido;-32 dBm;90:e8:68:86:e7:23;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:42 AM:904;PROBE REQUEST;CEEIM;-106 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:980;PROBE REQUEST;SSID oculto o desconocido;-60 dBm;0a:e9:6a:47:e2:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:982;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;0a:e9:6a:47:e2:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:984;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;0a:e9:6a:47:e2:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:986;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;0a:e9:6a:47:e2:6e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:988;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;92:dc:37:30:d6:54;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:44 AM:989;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:48 AM:100;PROBE REQUEST;HUAWEI-52NZ;-44 dBm;4e:03:51:2a:bc:87;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:48 AM:102;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;4e:03:51:2a:bc:87;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:51 AM:220;PROBE REQUEST;SSID oculto o desconocido;-62 dBm;8e:03:b7:e1:25:f3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:51 AM:222;PROBE REQUEST;TP-Link_608A_5G;-106 dBm;b4:69:21:74:d1:1e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:52 AM:260;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;d8:f8:83:87:35:b1;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:53 AM:300;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;36:0e:42:0d:0e:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:54 AM:340;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;36:0e:42:0d:0e:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:54 AM:342;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;36:0e:42:0d:0e:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:56 AM:420;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:58 AM:500;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;86:2b:d6:e5:59:97;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:58 AM:502;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;86:2b:d6:e5:59:97;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:58 AM:504;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;86:2b:d6:e5:59:97;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:58 AM:506;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;86:2b:d6:e5:59:97;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:59 AM:540;PROBE REQUEST;SSID oculto o desconocido;-46 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:59 AM:543;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:59 AM:545;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:08:59 AM:547;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:00 AM:580;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:00 AM:582;PROBE REQUEST;HP series 2800;-44 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:00 AM:585;PROBE REQUEST;HP series 2800;-48 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:01 AM:620;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;7a:66:18:02:bf:74;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:01 AM:627;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;7a:66:18:02:bf:74;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:01 AM:630;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;7a:66:18:02:bf:74;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:01 AM:632;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;7a:66:18:02:bf:74;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:01 AM:633;PROBE REQUEST;CEEIM_FREE;-72 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:03 AM:700;PROBE REQUEST;CEEIM_FREE;-72 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:03 AM:702;PROBE REQUEST;CEEIM_FREE;-76 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:03 AM:705;PROBE REQUEST;MOVISTAR_PLUS_74E0;-106 dBm;da:a1:19:53:e3:cd;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:03 AM:707;PROBE REQUEST;MiFibra-97BA;-106 dBm;da:a1:19:53:e3:cd;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:05 AM:780;PROBE REQUEST;SSID oculto o desconocido;-40 dBm;02:f3:71:32:5e:93;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:05 AM:782;PROBE REQUEST;SSID oculto o desconocido;-40 dBm;02:f3:71:32:5e:93;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:05 AM:785;PROBE REQUEST;SSID oculto o desconocido;-42 dBm;02:f3:71:32:5e:93;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:06 AM:820;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;96:93:9b:e7:38:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:06 AM:823;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;96:93:9b:e7:38:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:06 AM:825;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;96:93:9b:e7:38:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:07 AM:860;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;6e:e0:a8:78:f3:5e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:10 AM:980;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;7e:de:07:52:a2:47;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:10 AM:982;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;7e:de:07:52:a2:47;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:10 AM:984;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;7e:de:07:52:a2:47;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:13 AM:60;PROBE REQUEST;SSID oculto o desconocido;-104 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:14 AM:100;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;36:2d:3c:71:c1:42;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:17 AM:220;PROBE REQUEST;SSID oculto o desconocido;-60 dBm;26:f9:55:13:8d:b5;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:17 AM:222;PROBE REQUEST;SSID oculto o desconocido;-64 dBm;26:f9:55:13:8d:b5;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:17 AM:224;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;26:f9:55:13:8d:b5;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:20 AM:340;PROBE REQUEST;CEEIM_FREE;-82 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:380;PROBE REQUEST;SSID oculto o desconocido;-88 dBm;66:7d:f0:d0:ce:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:382;PROBE REQUEST;SSID oculto o desconocido;-92 dBm;66:7d:f0:d0:ce:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:384;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;5a:ef:c1:74:50:11;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:386;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;5a:ef:c1:74:50:11;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:389;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;5a:ef:c1:74:50:11;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:21 AM:391;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;5a:ef:c1:74:50:11;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:23 AM:460;PROBE REQUEST;MOVISTAR_FC77;-90 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:24 AM:500;PROBE REQUEST;SSID oculto o desconocido;-84 dBm;66:63:30:af:5d:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:24 AM:502;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;66:63:30:af:5d:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:24 AM:504;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;46:54:c1:7e:8b:bd;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:25 AM:550;PROBE REQUEST;CEEIM_FREE;-90 dBm;60:e3:2b:92:2f:20;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:28 AM:660;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;06:31:2e:5d:76:a1;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:28 AM:662;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;06:31:2e:5d:76:a1;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:28 AM:664;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;06:31:2e:5d:76:a1;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:700;PROBE REQUEST;Cableworld_U049;-54 dBm;6a:50:f8:e6:bf:de;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:702;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;92:47:68:4d:83:31;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:705;PROBE REQUEST;Cableworld_U049;-54 dBm;6a:50:f8:e6:bf:de;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:707;PROBE REQUEST;Cableworld_U049;-52 dBm;66:da:f9:bf:91:0f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:709;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;5a:6c:51:d7:44:58;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:29 AM:711;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;5a:6c:51:d7:44:58;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:30 AM:740;PROBE REQUEST;SSID oculto o desconocido;-102 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:30 AM:743;PROBE REQUEST;CEEIM;-106 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:31 AM:780;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;ee:10:e4:e6:a4:59;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:31 AM:782;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;ee:10:e4:e6:a4:59;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:31 AM:785;PROBE REQUEST;SSID oculto o desconocido;-46 dBm;ee:10:e4:e6:a4:59;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:31 AM:787;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;ee:10:e4:e6:a4:59;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:33 AM:860;PROBE REQUEST;CEEIM;-86 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:34 AM:900;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:34 AM:902;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:35 AM:940;PROBE REQUEST;HP series 2800;-60 dBm;d0:53:49:31:e8:7f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:38 AM:20;PROBE REQUEST;CEEIM;-86 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:41 AM:140;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:41 AM:142;PROBE REQUEST;eduroam;-106 dBm;dc:f5:05:54:bd:13;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:43 AM:220;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;18:26:49:af:da:d4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:43 AM:223;PROBE REQUEST;SSID oculto o desconocido;-41 dBm;18:26:49:af:da:d4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:43 AM:225;PROBE REQUEST;SSID oculto o desconocido;-42 dBm;18:26:49:af:da:d4;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:47 AM:380;PROBE REQUEST;SSID oculto o desconocido;-102 dBm;72:a5:05:00:37:48;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:49 AM:460;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;4a:4e:f0:4f:d1:78;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:49 AM:462;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;6a:11:6f:40:63:28;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:500;PROBE REQUEST;ANSWARE_2G;-106 dBm;94:53:30:64:58:6b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:503;PROBE REQUEST;ANSWARE_2G;-106 dBm;94:53:30:64:58:6b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:505;PROBE REQUEST;SSID oculto o desconocido;-60 dBm;4e:74:e5:54:5e:c2;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:507;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;4e:74:e5:54:5e:c2;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:509;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;4e:74:e5:54:5e:c2;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:511;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;4e:74:e5:54:5e:c2;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:50 AM:513;PROBE REQUEST;CEEIM_FREE;-72 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:51 AM:540;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:51 AM:542;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:51 AM:544;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:51 AM:547;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:51 AM:549;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;8e:ce:ea:8c:03:e3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:52 AM:580;PROBE REQUEST;SSID oculto o desconocido;-88 dBm;d8:f8:83:87:35:b1;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:52 AM:582;PROBE REQUEST;SSID oculto o desconocido;-84 dBm;a2:75:e1:b9:cb:49;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:52 AM:584;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;a2:75:e1:b9:cb:49;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:54 AM:660;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:820;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:822;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:824;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:825;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2417 Mhz;2
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:827;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:829;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:831;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:833;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2422 Mhz;3
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:834;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:836;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2427 Mhz;4
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:837;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:839;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:840;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2432 Mhz;5
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:842;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:843;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:845;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:847;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2437 Mhz;6
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:848;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:850;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:857;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2442 Mhz;7
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:858;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:859;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:861;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:09:58 AM:862;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2447 Mhz;8
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:860;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:862;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2452 Mhz;9
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:867;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:869;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;e2:f5:ad:4f:49:ae;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:871;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:873;PROBE REQUEST;SSID oculto o desconocido;-11 dBm;ce:3c:a6:c3:d2:5b;5180 Mhz;73.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:875;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:877;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:878;PROBE REQUEST;SSID oculto o desconocido;-16 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:880;PROBE REQUEST;SSID oculto o desconocido;-16 dBm;e2:f5:ad:4f:49:ae;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:882;PROBE REQUEST;SSID oculto o desconocido;-92 dBm;66:7d:f0:d0:ce:12;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:884;PROBE REQUEST;SSID oculto o desconocido;-93 dBm;66:7d:f0:d0:ce:12;5200 Mhz;77.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:885;PROBE REQUEST;SSID oculto o desconocido;-93 dBm;66:7d:f0:d0:ce:12;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:888;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:891;PROBE REQUEST;SSID oculto o desconocido;-11 dBm;ce:3c:a6:c3:d2:5b;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:898;PROBE REQUEST;SSID oculto o desconocido;-22 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:900;PROBE REQUEST;SSID oculto o desconocido;-18 dBm;e2:f5:ad:4f:49:ae;5220 Mhz;81.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:901;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:903;PROBE REQUEST;SSID oculto o desconocido;-14 dBm;ce:3c:a6:c3:d2:5b;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:904;PROBE REQUEST;SSID oculto o desconocido;-17 dBm;e2:f5:ad:4f:49:ae;5240 Mhz;85.2
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:864;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:09:59 AM:866;PROBE REQUEST;SSID oculto o desconocido;-6 dBm;ce:3c:a6:c3:d2:5b;2462 Mhz;11
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:940;PROBE REQUEST;SSID oculto o desconocido;-11 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:942;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:944;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:946;PROBE REQUEST;SSID oculto o desconocido;-23 dBm;e2:f5:ad:4f:49:ae;5745 Mhz;186.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:948;PROBE REQUEST;SSID oculto o desconocido;-11 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:949;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:952;PROBE REQUEST;SSID oculto o desconocido;-24 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:953;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5765 Mhz;190.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:955;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:957;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:958;PROBE REQUEST;SSID oculto o desconocido;-23 dBm;e2:f5:ad:4f:49:ae;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:960;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5785 Mhz;194.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:961;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:963;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;ce:3c:a6:c3:d2:5b;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:964;PROBE REQUEST;SSID oculto o desconocido;-20 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:01 AM:965;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5805 Mhz;198.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:02 AM:980;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:02 AM:982;PROBE REQUEST;SSID oculto o desconocido;-9 dBm;ce:3c:a6:c3:d2:5b;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:02 AM:984;PROBE REQUEST;SSID oculto o desconocido;-26 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:02 AM:986;PROBE REQUEST;SSID oculto o desconocido;-19 dBm;e2:f5:ad:4f:49:ae;5825 Mhz;202.2
+sniffer2.4Ghz_1;5/11/2022, 7:10:05 AM:60;PROBE REQUEST;SSID oculto o desconocido;-62 dBm;02:6a:71:46:05:c0;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:05 AM:63;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;02:6a:71:46:05:c0;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:06 AM:100;PROBE REQUEST;CEEIM_FREE;-48 dBm;f8:4d:89:84:78:71;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:06 AM:103;PROBE REQUEST;CEEIM_FREE;-66 dBm;f8:4d:89:84:78:71;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:06 AM:105;PROBE REQUEST;CEEIM_FREE;-58 dBm;f8:4d:89:84:78:71;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:07 AM:140;PROBE REQUEST;SSID oculto o desconocido;-102 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:08 AM:180;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:08 AM:182;PROBE REQUEST;SSID oculto o desconocido;-47 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:08 AM:184;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:09 AM:220;PROBE REQUEST;MOVISTAR_FC77;-98 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:09 AM:222;PROBE REQUEST;SSID oculto o desconocido;-96 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:09 AM:224;PROBE REQUEST;MOVISTAR_FC77;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:10 AM:260;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:10 AM:262;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:11 AM:300;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;34:c9:3d:e6:cd:c3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:540;PROBE REQUEST;vodafone2DAC;-106 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:543;PROBE REQUEST;FIBRANET-D58FA2;-94 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:546;PROBE REQUEST;CEEIM_MOVIL;-102 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:549;PROBE REQUEST;MOVISTAR_099C;-90 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:551;PROBE REQUEST;MOVISTAR_FAE2;-106 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:553;PROBE REQUEST;MiFibra-A022;-90 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:554;PROBE REQUEST;vodafoneBA1616;-98 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:556;PROBE REQUEST;wifi_rlv;-106 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:17 AM:558;PROBE REQUEST;SSID oculto o desconocido;-102 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:18 AM:590;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:20 AM:670;PROBE REQUEST;PROD-SOTA;-94 dBm;30:b4:b8:78:0e:5e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:22 AM:740;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:22 AM:742;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:24 AM:820;PROBE REQUEST;PROD-SOTA;-86 dBm;30:b4:b8:78:0e:5e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:25 AM:860;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:25 AM:863;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:25 AM:862;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;30:b4:b8:78:0e:5e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:26 AM:900;PROBE REQUEST;SSID oculto o desconocido;-62 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:28 AM:980;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:30 AM:20;PROBE REQUEST;CEEIM-CORE;-84 dBm;66:26:9a:19:96:2d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:31 AM:60;PROBE REQUEST;CEEIM_FREE;-84 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:300;PROBE REQUEST;SSID oculto o desconocido;-42 dBm;f2:36:23:7c:d6:e8;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:302;PROBE REQUEST;teamcamp_5g;-42 dBm;c2:f4:98:bc:ae:21;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:303;PROBE REQUEST;GFinger;-44 dBm;fe:a9:5d:b9:27:83;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:305;PROBE REQUEST;CEEIM_FREE;-44 dBm;b2:ea:73:b9:2c:a0;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:307;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;f2:36:23:7c:d6:e8;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:309;PROBE REQUEST;teamcamp_5g;-44 dBm;a6:fb:3d:9f:8b:d6;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:310;PROBE REQUEST;GFinger;-44 dBm;0e:0b:41:3b:97:a3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:312;PROBE REQUEST;CEEIM_FREE;-46 dBm;ee:14:93:83:88:fc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:314;PROBE REQUEST;SSID oculto o desconocido;-46 dBm;ba:a6:bc:1a:ea:5e;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:316;PROBE REQUEST;teamcamp_5g;-46 dBm;a6:fb:3d:9f:8b:d6;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:317;PROBE REQUEST;GFinger;-44 dBm;0e:0b:41:3b:97:a3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:37 AM:319;PROBE REQUEST;CEEIM_FREE;-46 dBm;ee:14:93:83:88:fc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:39 AM:380;PROBE REQUEST;VISUALTIS@VISUALTIS;-106 dBm;64:90:c1:8e:75:ec;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:42 AM:500;PROBE REQUEST;SSID oculto o desconocido;-72 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:45 AM:630;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;a6:a2:b7:3e:9d:2f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:45 AM:632;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;a6:a2:b7:3e:9d:2f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:45 AM:634;PROBE REQUEST;SSID oculto o desconocido;-64 dBm;a6:a2:b7:3e:9d:2f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:45 AM:636;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;a6:a2:b7:3e:9d:2f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:46 AM:660;PROBE REQUEST;SSID oculto o desconocido;-74 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:47 AM:700;PROBE REQUEST;HUAWEI-52NZ;-48 dBm;0a:ab:33:5a:23:2d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:47 AM:703;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;0a:ab:33:5a:23:2d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:47 AM:704;PROBE REQUEST;HUAWEI-52NZ;-44 dBm;0a:ab:33:5a:23:2d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:47 AM:706;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;0a:ab:33:5a:23:2d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:48 AM:740;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;de:32:ac:7f:c4:55;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:48 AM:751;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;de:32:ac:7f:c4:55;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:48 AM:753;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;de:32:ac:7f:c4:55;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:48 AM:755;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;de:32:ac:7f:c4:55;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:50 AM:830;PROBE REQUEST;SSID oculto o desconocido;-74 dBm;52:47:3e:bf:32:ef;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:50 AM:832;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;52:47:3e:bf:32:ef;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:50 AM:834;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;52:47:3e:bf:32:ef;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:53 AM:940;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:53 AM:942;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:54 AM:980;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;be:f0:7e:96:cd:52;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:54 AM:982;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;be:f0:7e:96:cd:52;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:54 AM:984;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;6e:c3:c8:00:63:6d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:54 AM:986;PROBE REQUEST;SSID oculto o desconocido;-68 dBm;6e:c3:c8:00:63:6d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:54 AM:988;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;6e:c3:c8:00:63:6d;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:56 AM:20;PROBE REQUEST;CEEIM_FREE;-62 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:56 AM:22;PROBE REQUEST;CEEIM_FREE;-55 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:58 AM:100;PROBE REQUEST;SSID oculto o desconocido;-62 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:58 AM:102;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:10:59 AM:140;PROBE REQUEST;CEEIM;-88 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:03 AM:300;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;a6:4e:03:04:12:04;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:03 AM:302;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;1a:01:f1:9c:db:aa;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:05 AM:380;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:05 AM:382;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:07 AM:460;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;26:68:48:46:e0:b6;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:07 AM:462;PROBE REQUEST;SSID oculto o desconocido;-84 dBm;26:68:48:46:e0:b6;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:07 AM:463;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;4a:fb:eb:7f:71:af;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:07 AM:465;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;4a:fb:eb:7f:71:af;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:07 AM:467;PROBE REQUEST;SSID oculto o desconocido;-52 dBm;4a:fb:eb:7f:71:af;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:12 AM:670;PROBE REQUEST;SSID oculto o desconocido;-98 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:12 AM:672;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:14 AM:740;PROBE REQUEST;SSID oculto o desconocido;-52 dBm;c8:09:a8:0e:17:3a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:14 AM:742;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;c8:09:a8:0e:17:3a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:14 AM:744;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;70:9c:d1:e7:c6:d3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:15 AM:780;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;70:9c:d1:e7:c6:d3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:15 AM:782;PROBE REQUEST;SSID oculto o desconocido;-56 dBm;70:9c:d1:e7:c6:d3;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:900;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;3a:65:62:b7:02:99;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:903;PROBE REQUEST;SSID oculto o desconocido;-64 dBm;3a:65:62:b7:02:99;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:906;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:908;PROBE REQUEST;vodafoneBA1616;-102 dBm;76:a2:d1:3e:c4:25;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:911;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:18 AM:913;PROBE REQUEST;SSID oculto o desconocido;-86 dBm;b6:60:d2:40:c5:12;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:20 AM:980;PROBE REQUEST;SSID oculto o desconocido;-90 dBm;ee:70:21:52:22:ec;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:20 AM:982;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;ee:70:21:52:22:ec;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:24 AM:100;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;6a:f8:67:b8:37:32;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:24 AM:102;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;6a:f8:67:b8:37:32;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:24 AM:104;PROBE REQUEST;SSID oculto o desconocido;-68 dBm;6a:f8:67:b8:37:32;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:25 AM:140;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;12:04:1d:b9:dc:22;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:25 AM:142;PROBE REQUEST;SSID oculto o desconocido;-70 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:29 AM:300;PROBE REQUEST;SSID oculto o desconocido;-68 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:32 AM:420;PROBE REQUEST;CEEIM_FREE;-60 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:32 AM:422;PROBE REQUEST;SSID oculto o desconocido;-78 dBm;70:9c:d1:47:69:fe;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:43 AM:860;PROBE REQUEST;SSID oculto o desconocido;-88 dBm;1e:65:94:33:96:74;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:43 AM:862;PROBE REQUEST;CEEIM_FREE;-62 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:43 AM:865;PROBE REQUEST;CEEIM_FREE;-58 dBm;de:9d:f4:2f:06:44;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:48 AM:20;PROBE REQUEST;MOVISTAR_FC77;-106 dBm;00:03:50:9a:0e:cc;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:48 AM:22;PROBE REQUEST;CEEIM;-88 dBm;42:cb:6a:37:54:b7;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:49 AM:60;PROBE REQUEST;SSID oculto o desconocido;-106 dBm;00:22:fe:41:a4:2a;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:140;PROBE REQUEST;SSID oculto o desconocido;-48 dBm;3a:67:36:ff:1a:5f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:142;PROBE REQUEST;SSID oculto o desconocido;-50 dBm;3a:67:36:ff:1a:5f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:145;PROBE REQUEST;SSID oculto o desconocido;-54 dBm;3a:67:36:ff:1a:5f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:150;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;3a:67:36:ff:1a:5f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:156;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;3a:67:36:ff:1a:5f;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:51 AM:162;PROBE REQUEST;SSID oculto o desconocido;-82 dBm;6a:3a:3e:33:3a:da;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:52 AM:180;PROBE REQUEST;ANSWARE_2G;-106 dBm;94:53:30:64:58:6b;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:53 AM:220;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:53 AM:222;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:53 AM:225;PROBE REQUEST;SSID oculto o desconocido;-12 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:53 AM:227;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:53 AM:229;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:54 AM:260;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:54 AM:262;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:54 AM:264;PROBE REQUEST;SSID oculto o desconocido;-44 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:380;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:382;PROBE REQUEST;SSID oculto o desconocido;-8 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:385;PROBE REQUEST;SSID oculto o desconocido;-10 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:387;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:389;PROBE REQUEST;SSID oculto o desconocido;-30 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1
+sniffer2.4Ghz_1;5/11/2022, 7:11:57 AM:391;PROBE REQUEST;SSID oculto o desconocido;-58 dBm;5a:f5:ba:66:22:ab;2412 Mhz;1

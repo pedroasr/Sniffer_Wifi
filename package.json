@@ -1,0 +1,22 @@
+{
+    "name": "sniffer-wifi-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "csv-writer": "^1.6.0",
+        "dotenv": "^8.2.0",
+        "node-cron": "^3.0.0",
+        "node-fetch": "^3.2.4",
+        "node-gyp": "^9.0.0",
+        "onoff": "^6.0.3",
+        "pcap": "github:mranney/node_pcap",
+        "serialport": "^9.0.7"
+    }
+}
