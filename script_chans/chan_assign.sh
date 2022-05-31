@@ -7,7 +7,7 @@ iface1='wlan1'
 iface2='wlan2'
 iface3='wlan3'
 
-sleep 10
+sleep 1
 echo "bajando interfaces wifi $iface1, $iface2, $iface3"
 ip link set $iface1 down
 ip link set $iface2 down
@@ -23,7 +23,7 @@ ip link set $iface1 up
 ip link set $iface2 up
 ip link set $iface3 up
 
-sleep 4
+sleep 3
 
 chan24_1=1
 chan24_2=6

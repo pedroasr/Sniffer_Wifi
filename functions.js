@@ -37,7 +37,7 @@ const parseSSID = (bytes, l_RT, type) => {
                 result += String.fromCharCode(bytes[i]);
             }
         } else { // si length SSID = 0 es que el SSID no se está transmitiendo
-            return 'SSID oculto o desconocido';
+            return 'SSID oculto';
         }
     }
     return result;
