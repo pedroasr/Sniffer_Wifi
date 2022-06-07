@@ -18,6 +18,8 @@
         "node-gyp": "^9.0.0",
         "onoff": "^6.0.3",
         "pcap": "github:mranney/node_pcap",
-        "serialport": "^9.0.7"
+        "sequelize": "^6.20.1",
+        "serialport": "^9.0.7",
+        "sqlite3": "^5.0.8"
     }
 }
