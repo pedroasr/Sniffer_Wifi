@@ -11,12 +11,23 @@ const insertInto = db.prepare(
   "INSERT INTO ProbeRequestFrames (timestamp, snifferId, SSID, RSSI, MAC_origen, canal) VALUES (?, ?, ?, ?, ?, ?)"
 );
 
+/*=========================== MQTT =========================*/
+
+const connectUrl = 'mqtt://192.168.200.106'
+const client = mqtt.connect(connectUrl)
+
+client.on('connect', function () {
+        console.log("Connected to MQTT URL")
+})
+
 // ====================== SNIFFER WIFI ==================================
 
 const snifferId = "sniffer2.4Ghz_11"; //cambiar por id del sniffer en el que se ejecute
 const { parseSSID, parseType, parseFreq } = require("./functions");
 
 var timestamp = new Date();
+
+let wifidata = {}
 
 function init() {
   console.log("iniciando capturas...");
@@ -58,7 +69,16 @@ function init() {
         `MAC origen: ${MAC_origen}\n` +
         `Canal: ${canal}\n`;
 
+      
       console.log(disp);
+
+      wifidata.ssid = SSID;
+      wifidata.rssi = RSSI;
+      wifidata.timestamp = date;
+      wifidata.OrigMAC = MAC_origen;
+      wifidata.canal = canal;
+      
+      client.publish("CRAIUPCT_WifiData",JSON.stringify(wifidata));
 
       insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal);
     }
