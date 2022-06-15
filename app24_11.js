@@ -1,7 +1,7 @@
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
-
+const mqtt = require("mqtt")
 const Database = require("better-sqlite3");
 const db = new Database("Sniffer-Wifi.db");
 const createTable =
@@ -11,6 +11,15 @@ const insertInto = db.prepare(
   "INSERT INTO ProbeRequestFrames (timestamp, snifferId, SSID, RSSI, MAC_origen, canal) VALUES (?, ?, ?, ?, ?, ?)"
 );
 
+/*=========================== MQTT =========================*/
+
+const connectUrl = 'mqtt://192.168.102.150'
+const client = mqtt.connect(connectUrl)
+
+client.on('connect', function () {
+        console.log("Connected to MQTT URL")
+})
+
 // ====================== SNIFFER WIFI ==================================
 
 const snifferId = "sniffer2.4Ghz_11"; //cambiar por id del sniffer en el que se ejecute
@@ -18,11 +27,13 @@ const { parseSSID, parseType, parseFreq } = require("./functions");
 
 var timestamp = new Date();
 
+let wifidata = {}
+
 function init() {
   console.log("iniciando capturas...");
   // creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
   // sustituir interfaz por la del dispositivo en el que se ejecuta la app
-  var pcapSession = pcap.createSession("wlan3", {
+  var pcapSession = pcap.createSession(process.env.iface3, {
     filter: "type mgt subtype probe-req",
   });
 
@@ -58,7 +69,16 @@ function init() {
         `MAC origen: ${MAC_origen}\n` +
         `Canal: ${canal}\n`;
 
+      
       console.log(disp);
+
+      wifidata.ssid = SSID;
+      wifidata.rssi = RSSI;
+      wifidata.timestamp = date;
+      wifidata.OrigMAC = MAC_origen;
+      wifidata.canal = canal;
+      
+      client.publish("CRAIUPCT_WifiData",JSON.stringify(wifidata));
 
       insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal);
     }
