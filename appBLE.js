@@ -31,7 +31,7 @@ function pad(n, z){
 
 /*MQTT*/
 
-const connectUrl = 'mqtt://localhost'
+const connectUrl = 'mqtt://192.168.102.150'
 const client = mqtt.connect(connectUrl)
 
 client.on('connect', function () {

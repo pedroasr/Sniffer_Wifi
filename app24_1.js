@@ -1,6 +1,7 @@
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
+const mqtt = require("mqtt")
 
 const Database = require("better-sqlite3");
 const db = new Database("Sniffer-Wifi.db");
@@ -13,7 +14,7 @@ const insertInto = db.prepare(
 
 /*=========================== MQTT =========================*/
 
-const connectUrl = 'mqtt://192.168.200.106'
+const connectUrl = 'mqtt://192.168.102.150'
 const client = mqtt.connect(connectUrl)
 
 client.on('connect', function () {
@@ -27,11 +28,13 @@ const { parseSSID, parseType, parseFreq } = require("./functions");
 
 var timestamp = new Date();
 
+let wifidata = {}
+
 function init() {
   console.log("iniciando capturas...");
   // creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
   // sustituir interfaz por la del dispositivo en el que se ejecuta la app
-  var pcapSession = pcap.createSession("wlan1", {
+  var pcapSession = pcap.createSession(process.env.iface1, {
     filter: "type mgt subtype probe-req",
   });
 
