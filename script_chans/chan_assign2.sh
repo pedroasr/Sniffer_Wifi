@@ -4,7 +4,7 @@
 # Ejecutar antes este script para configurar las interfaces.
 
 rm ../.env
-ipint="192.168.102.143"
+ipint="192.168.102.143" # Hay que editar esta variable para que funcione
 
 iface1=''
 iface2=''
@@ -30,7 +30,7 @@ then
 	((count = $count + 1))
 else
 	echo 'wlan0 is taken as data interface'
-	taken = "false"
+	taken="false"
 fi
 
 aux=$(ifconfig wlan1 |grep inet)
