@@ -3,7 +3,7 @@
 # Codigo encargado de configurar las terminales Wifi. En nuestro caso queremos valores fijos por lo que es más sencillo.
 # Ejecutar antes este script para configurar las interfaces.
 
-rm ../.env
+rm .env
 ipint="192.168.102.143" # Hay que editar esta variable para que funcione
 
 iface1=''
@@ -106,9 +106,9 @@ echo $iface1
 echo $iface2
 echo $iface3
 
-echo "iface1="$iface1 >> ../.env
-echo "iface2="$iface2 >> ../.env
-echo "iface3="$iface3 >> ../.env
+echo "iface1="$iface1 >> .env
+echo "iface2="$iface2 >> .env
+echo "iface3="$iface3 >> .env
 
 sleep 1
 echo "bajando interfaces wifi $iface1, $iface2, $iface3"

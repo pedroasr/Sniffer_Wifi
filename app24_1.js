@@ -29,6 +29,7 @@ const { parseSSID, parseType, parseFreq } = require("./functions");
 var timestamp = new Date();
 
 let wifidata = {}
+wifidata.id = process.env.id
 
 function init() {
   console.log("iniciando capturas...");

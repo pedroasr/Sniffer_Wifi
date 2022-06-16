@@ -1,4 +1,5 @@
 const { SerialPort, ReadlineParser } = require('serialport')
+require("dotenv").config();
 const Database = require("better-sqlite3");
 const mqtt = require("mqtt")
 
@@ -56,6 +57,7 @@ encoding:'hex'}))
 let chain = ''
 
 let dato = {}
+dato.idRasp = process.env.id
 
 parser.on('data',function(buff){
     //console.log(buff.toString('hex'))

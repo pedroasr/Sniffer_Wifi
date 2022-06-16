@@ -3,8 +3,17 @@
 # Codigo encargado de configurar las terminales Wifi. En nuestro caso queremos valores fijos por lo que es más sencillo.
 # Ejecutar antes este script para configurar las interfaces.
 
-rm ../.env
+rm .env
 ipint="192.168.102.143" # Hay que editar esta variable para que funcione
+hostname="Raspberry1"
+old_host=$(cat /etc/hostname)
+echo $hostname > /etc/hostname
+
+if [[ $old_host != $hostname ]]
+then
+        echo "127.0.1.1 "$hostname >>/etc/hosts
+        echo "New hostname assigned"
+fi
 
 iface1=''
 iface2=''
@@ -108,9 +117,10 @@ echo $iface1
 echo $iface2
 echo $iface3
 
-echo "iface1="$iface1 >> ../.env
-echo "iface2="$iface2 >> ../.env
-echo "iface3="$iface3 >> ../.env
+echo "iface1="$iface1 >> .env
+echo "iface2="$iface2 >> .env
+echo "iface3="$iface3 >> .env
+echo "id="$hostname >> .env
 
 sleep 1
 echo "bajando interfaces wifi $iface1, $iface2, $iface3"
