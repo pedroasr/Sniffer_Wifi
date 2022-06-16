@@ -10,6 +10,8 @@ iface1=''
 iface2=''
 iface3=''
 
+pm2 save
+
 taken="false"
 count=0
 
