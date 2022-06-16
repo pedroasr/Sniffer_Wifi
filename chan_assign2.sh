@@ -141,3 +141,14 @@ echo "canal de $iface2: ${chan24_2}"
 echo "canal de $iface3: ${chan24_3}"
 
 # This is to make it work from start
+# cd SnifferWifi
+# sudo pm2 start chan_assign2.sh
+# sudo pm2 save
+
+echo "Starting scripts"
+
+pm2 start app24_1.js
+pm2 start app24_6.js
+pm2 start app24_11.js
+pm2 start appBLE.js
+pm2 stop chan_assign2.sh
