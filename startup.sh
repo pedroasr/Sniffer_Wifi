@@ -15,6 +15,9 @@ then
         echo "New hostname assigned"
 fi
 
+echo "Establishing timezone"
+timedatectl set-timezone "Europe/Madrid"
+
 iface1=''
 iface2=''
 iface3=''
