@@ -14,7 +14,7 @@ const insertInto = db.prepare(
 
 /*=========================== MQTT =========================*/
 
-const connectUrl = 'mqtt://192.168.102.150'
+const connectUrl = 'mqtt://10.147.18.134'
 const client = mqtt.connect(connectUrl)
 
 client.on('connect', function () {

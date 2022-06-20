@@ -32,7 +32,7 @@ function pad(n, z){
 
 /*MQTT*/
 
-const connectUrl = 'mqtt://192.168.102.150'
+const connectUrl = 'mqtt://10.147.18.134'
 const client = mqtt.connect(connectUrl)
 
 client.on('connect', function () {
@@ -141,7 +141,7 @@ parser.on('data',function(buff){
             //console.log(dato)
 
             insertInto.run(dato.id,dato.mac,dato.tipoMac,dato.tipoADV,dato.bleSize,dato.rspSize,dato.bleData,dato.rssi,dato.nseq,dato.timestamp)
-
+            console.log(dato)
             client.publish("CRAIUPCT_BLEdata",JSON.stringify(dato))
         }
     }
