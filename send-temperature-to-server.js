@@ -7,7 +7,7 @@ setInterval(function () {
       if (error !== null) {
         console.log("exec error: " + error);
       } else {
-        var date = new Date();
+        var date = new Date().getTime();
         var temp = parseFloat(stdout / 1000);
         var dataToSend = {
           date: date,
