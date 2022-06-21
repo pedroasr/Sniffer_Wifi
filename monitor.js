@@ -45,12 +45,12 @@ setInterval(function () {
         } else {
           dataToSend.temp = parseFloat(stdout / 1000);
           console.log("temperatureUpdate", dataToSend);
-          client.publish("keepalive",JSON.stringify(dato))
+          client.publish("keepalive",JSON.stringify(dataToSend))
 
         }
       }
     );
-}, 10000);
+}, 1000*10*60);
 
 
 
