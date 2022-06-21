@@ -32,7 +32,7 @@ exec("cat /etc/hostname",(error,stdout,stderr)=>{
     if(error !== null) {
         console.log("Exec error: "+ error);
     }else{
-        dataToSend.id = stdout;
+      dataToSend.id = stdout.split('\n')[0];
     }
 })
 
