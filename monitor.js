@@ -43,8 +43,7 @@ setInterval(function () {
         if (error !== null) {
           console.log("exec error: " + error);
         } else {
-          var date = getFechaCompleta();
-          var temp = parseFloat(stdout / 1000);
+          dataToSend.temp = parseFloat(stdout / 1000);
           console.log("temperatureUpdate", dataToSend);
           client.publish("keepalive",JSON.stringify(dato))
 
