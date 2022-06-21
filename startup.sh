@@ -166,5 +166,5 @@ pm2 start app24_1.js
 pm2 start app24_6.js
 pm2 start app24_11.js
 pm2 start appBLE.js
-pm2 stop chan_assign2.sh
+pm2 stop chan_assign.sh
 pm2 start monitor.js

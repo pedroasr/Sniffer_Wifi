@@ -1,7 +1,7 @@
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
-const mqtt = require("mqtt")
+const mqtt = require("mqtt");
 
 const Database = require("better-sqlite3");
 const db = new Database("Sniffer-Wifi.db");
@@ -14,28 +14,26 @@ const insertInto = db.prepare(
 
 /*=========================== MQTT =========================*/
 
-const connectUrl = 'mqtt://10.147.18.134'
-const client = mqtt.connect(connectUrl)
+const connectUrl = "mqtt://10.147.18.134";
+const client = mqtt.connect(connectUrl);
 
-client.on('connect', function () {
-        console.log("Connected to MQTT URL")
-})
+client.on("connect", function () {
+  console.log("Connected to MQTT URL");
+});
 
 // ====================== SNIFFER WIFI ==================================
 
 const snifferId = "sniffer2.4Ghz_6"; //cambiar por id del sniffer en el que se ejecute
-const { parseSSID, parseType, parseFreq } = require("./functions");
+const { parseSSID, parseType, parseFreq, getFullDate } = require("./functions");
 
-var timestamp = new Date();
-
-let wifidata = {}
-wifidata.id = process.env.id
+let wifidata = {};
+wifidata.id = process.env.id;
 
 function init() {
   console.log("iniciando capturas...");
   // creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
   // sustituir interfaz por la del dispositivo en el que se ejecuta la app
- 
+
   var pcapSession = pcap.createSession(process.env.iface2, {
     filter: "type mgt subtype probe-req",
   });
@@ -58,9 +56,7 @@ function init() {
       SSID = parseSSID(rawPacket.buf, length_RT, tipo);
       RSSI = packet.payload.fields.antenna_signal;
       MAC_origen = packet.payload.ieee802_11Frame.shost.toString(16);
-      date = `${timestamp.getFullYear()}-${
-        timestamp.getMonth() + 1
-      }-${timestamp.getDate()} ${timestamp.getHours()}:${timestamp.getMinutes()}:${timestamp.getSeconds()}:${timestamp.getMilliseconds()}`;
+      date = getFullDate();
 
       var disp =
         `====================\n`.green +
@@ -79,8 +75,8 @@ function init() {
       wifidata.timestamp = date;
       wifidata.OrigMAC = MAC_origen;
       wifidata.canal = canal;
-      
-      client.publish("CRAIUPCT_WifiData",JSON.stringify(wifidata));
+
+      client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
 
       insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal);
     }
