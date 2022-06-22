@@ -24,7 +24,14 @@ client.on("connect", function () {
 // ====================== SNIFFER WIFI ==================================
 
 const snifferId = "sniffer2.4Ghz_6"; //cambiar por id del sniffer en el que se ejecute
-const { parseSSID, parseType, parseFreq, getFullDate } = require("./functions");
+const {
+  parseSSID,
+  parseType,
+  parseFreq,
+  getFullDate,
+  parseRSSI,
+  parseSourceMAC,
+} = require("./functions");
 
 let wifidata = {};
 wifidata.id = process.env.id;
@@ -51,11 +58,10 @@ function init() {
     canal = (frec % 2407) / 5;
 
     if (canal == 6) {
-      var packet = pcap.decode.packet(rawPacket);
       var tipo = parseType(rawPacket.buf, length_RT);
       SSID = parseSSID(rawPacket.buf, length_RT, tipo);
-      RSSI = packet.payload.fields.antenna_signal;
-      MAC_origen = packet.payload.ieee802_11Frame.shost.toString(16);
+      RSSI = parseRSSI(rawPacket.buf, length_RT);
+      MAC_origen = parseSourceMAC(rawPacket.buf, length_RT);
       date = getFullDate();
 
       var disp =
