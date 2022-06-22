@@ -25,6 +25,8 @@ const getFechaCompleta = () => {
 };
 
 let dataToSend = {};
+let ifaces = []
+let packets = []
 
 exec("cat /etc/hostname", (error, stdout, stderr) => {
   if (error !== null) {
@@ -43,11 +45,9 @@ exec("cat /etc/hostname", (error, stdout, stderr) => {
                 pad(d.getSeconds())].join(':');
   
     return dformat;
-} 
+} });
 
-let dataToSend = {}
-let ifaces = []
-let packets = []
+
 
 exec("cat /etc/hostname",(error,stdout,stderr)=>{
     if(error !== null) {
