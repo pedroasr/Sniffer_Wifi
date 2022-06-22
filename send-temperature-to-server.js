@@ -1,19 +1,27 @@
-exec = require("child_process").exec;
+import exec from "child_process";
+import fetch from "node-fetch";
 
 setInterval(function () {
-  exec(
+  exec.exec(
     "cat /sys/class/thermal/thermal_zone0/temp",
     function (error, stdout, stderr) {
       if (error !== null) {
         console.log("exec error: " + error);
       } else {
-        var date = new Date().getTime();
-        var temp = parseFloat(stdout / 1000);
+        const date = new Date().getTime();
+        const temp = parseFloat(stdout / 1000).toString();
         var dataToSend = {
-          date: date,
-          temperature: temp,
+          deviceID: 'PachiBerry',
+          value: temp,
+          timestamp: date
         };
-        console.log("temperatureUpdate", dataToSend);
+        fetch('http:192.168.0.31:3030/data', 
+        {
+        method: "POST",
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(dataToSend)
+        })
+        .then(response => console.log(response));
       }
     }
   );
