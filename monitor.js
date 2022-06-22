@@ -32,7 +32,6 @@ exec("cat /etc/hostname", (error, stdout, stderr) => {
   } else {
     dataToSend.id = stdout.split("\n")[0];
   }
-<<<<<<< HEAD
   
   const getFechaCompleta = () => {
     let d = new Date,
@@ -123,25 +122,3 @@ setInterval(function () {
     client.publish("keepalive",JSON.stringify(dataToSend))
 }, 1000*10*60);
 
-
-
-
-
-=======
-});
-
-setInterval(function () {
-  exec(
-    "cat /sys/class/thermal/thermal_zone0/temp",
-    function (error, stdout, stderr) {
-      if (error !== null) {
-        console.log("exec error: " + error);
-      } else {
-        dataToSend.temp = parseFloat(stdout / 1000);
-        console.log("temperatureUpdate", dataToSend);
-        client.publish("keepalive", JSON.stringify(dataToSend));
-      }
-    }
-  );
-}, 1000 * 10 * 60);
->>>>>>> fcd638a3e186f82da74ec768e3ca274617f935bf
