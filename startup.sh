@@ -4,8 +4,19 @@
 # Ejecutar antes este script para configurar las interfaces.
 
 rm .env
-ipint="192.168.102.143" # Hay que editar esta variable para que funcione
+
+# Hay que editar esta variable para que funcione
+ipint="192.168.102.X" 
 hostname="Raspberry1"
+####################################################
+
+if [[ $ipint == "192.168.102.X" ]]	#Me pasa que se me olvida configurar esto
+then
+		echo "No IP Assigned, stopping!"
+		exit 0
+fi
+	
+
 old_host=$(cat /etc/hostname)
 echo $hostname > /etc/hostname
 
