@@ -4,6 +4,12 @@
 // (4 bits de subtype, 2 de Type y 2 de version) es:
 // 0100 0000 es de tipo probe request
 // 1000 0000 es de tipo Beacon
+
+function pad(n, z) {
+  z = z || 2;
+  return ("00" + n).slice(-z);
+}
+
 const parseType = (bytes, l_RT) => {
   if (bytes[l_RT] == 64) {
     return "PROBE REQUEST";
