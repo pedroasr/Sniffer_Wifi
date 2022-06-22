@@ -11,17 +11,15 @@ setInterval(function () {
         const date = new Date().getTime();
         const temp = parseFloat(stdout / 1000).toString();
         var dataToSend = {
-          deviceID: 'PachiBerry',
+          deviceID: "PachiBerry",
           value: temp,
-          timestamp: date
+          timestamp: date,
         };
-        fetch('http:192.168.0.31:3030/data', 
-        {
-        method: "POST",
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(dataToSend)
-        })
-        .then(response => console.log(response));
+        fetch("http:192.168.0.31:3030/data", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(dataToSend),
+        }).then((response) => console.log(response));
       }
     }
   );
