@@ -1,11 +1,10 @@
 var io = require("socket.io-client");
 var exec = require("child_process").exec;
-
 const socket = io.connect("http://localhost:3000");
 
 socket.on("connection", function (socket) {
   setInterval(function () {
-    child = exec(
+    child = exec.exec(
       "cat /sys/class/thermal/thermal_zone0/temp",
       function (error, stdout, stderr) {
         if (error !== null) {
