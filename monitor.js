@@ -9,20 +9,25 @@ client.on("connect", function () {
 });
 
 /* Timestamp*/
-function pad(n, z) {
+function pad(n, z){
   z = z || 2;
-  return ("00" + n).slice(-z);
+return ('00' + n).slice(-z);
 }
 
 const getFechaCompleta = () => {
-  let d = new Date(),
-    dformat =
-      [d.getFullYear(), pad(d.getMonth() + 1), pad(d.getDate())].join("-") +
-      " " +
-      [pad(d.getHours()), pad(d.getMinutes()), pad(d.getSeconds())].join(":");
+  let d = new Date,
+  dformat =   [d.getFullYear(),
+              pad(d.getMonth()+1),
+              pad(d.getDate())].join('-')+' '+
+              [pad(d.getHours()),
+              pad(d.getMinutes()),
+              pad(d.getSeconds())].join(':');
 
   return dformat;
-};
+} 
+
+
+
 
 let dataToSend = {};
 let ifaces = []
@@ -35,17 +40,7 @@ exec("cat /etc/hostname", (error, stdout, stderr) => {
     dataToSend.id = stdout.split("\n")[0];
   }
   
-  const getFechaCompleta = () => {
-    let d = new Date,
-    dformat =   [d.getFullYear(),
-                pad(d.getMonth()+1),
-                pad(d.getDate())].join('-')+' '+
-                [pad(d.getHours()),
-                pad(d.getMinutes()),
-                pad(d.getSeconds())].join(':');
-  
-    return dformat;
-} });
+});
 
 
 
@@ -82,16 +77,19 @@ setInterval(function () {
         auxcom,
         (error,stdout,stderr) => {
           if (error !== null) {
-            console.log("exec error: " + error);
+            //console.log("exec error: " + error);
+            console.log("At least one Wifi Interface is down")
             ifaces[i-1] = "KO"
           }else{
 
             chain = stdout.split(" ")
-            if(packets[i-1]<chain[10]){
+            /*if(packets[i-1]<chain[10]){//Code moved to server
               ifaces[i-1] = "OK"
             }else{
               ifaces[i-1] = "nOK"
-            }
+            }*/
+            packets[i-1] = chain[10]
+            ifaces[i-1] = chain[10]
             
           }
         }
@@ -107,7 +105,7 @@ setInterval(function () {
       "ls /dev/ttyUSB*",
       (error,stdout,stderr) => {
         if (error !== null) {
-          console.log("exec error: " + error);
+          console.log("ESP32 disconnected");
           dataToSend.BLEface = "KO"
         }else{
 
@@ -118,7 +116,7 @@ setInterval(function () {
     )
 
 
-
+    console.log(`${getFechaCompleta} -- Sending monitoring data to server`)
     client.publish("keepalive",JSON.stringify(dataToSend))
 }, 1000*10*60);
 
