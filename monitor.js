@@ -68,13 +68,13 @@ setInterval(function () {
 
       switch(i){
         case 1:
-          auxcom = `ifconfig ${env.process.iface1} |grep "RX packets"`
+          auxcom = `ifconfig ${process.env.iface1} |grep "RX packets"`
           break;
         case 2:
-          auxcom = `ifconfig ${env.process.iface2} |grep "RX packets"`
+          auxcom = `ifconfig ${process.env.iface2} |grep "RX packets"`
           break;
         case 3:
-          auxcom = `ifconfig ${env.process.iface3} |grep "RX packets"`
+          auxcom = `ifconfig ${process.env.iface3} |grep "RX packets"`
           break;
       }
         

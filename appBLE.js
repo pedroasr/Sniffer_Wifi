@@ -29,9 +29,17 @@ const getFechaCompleta = () => {
 };
 
 /*MQTT*/
+const options = {
+  clean: true, // retain session
+connectTimeout: 4000, // Timeout period
+// Authentication information
+clientId: process.env.id,
+username: process.env.id,
+password: process.env.id,
+}
 
-const connectUrl = "mqtt://10.147.18.134";
-const client = mqtt.connect(connectUrl);
+const connectUrl = "ws://10.147.18.134:8083/mqtt";
+const client = mqtt.connect(connectUrl,options);
 
 client.on("connect", function () {
   console.log("Connected to MQTT URL");
