@@ -173,4 +173,4 @@ pm2 start app24_6.js
 pm2 start app24_11.js
 pm2 start appBLE.js
 pm2 start monitor.js
-pm2 stop startup.sh
+pm2 delete startup.sh
