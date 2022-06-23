@@ -1,5 +1,6 @@
 const { exec } = require("child_process");
 const mqtt = require("mqtt");
+require("dotenv").config();
 
 const connectUrl = "mqtt://10.147.18.134";
 const client = mqtt.connect(connectUrl);
@@ -44,14 +45,6 @@ exec("cat /etc/hostname", (error, stdout, stderr) => {
 
 
 
-exec("cat /etc/hostname",(error,stdout,stderr)=>{
-    if(error !== null) {
-        console.log("Exec error: "+ error);
-    }else{
-      dataToSend.id = stdout.split('\n')[0];
-    }
-})
-
 setInterval(function () {
     exec(
       "cat /sys/class/thermal/thermal_zone0/temp",
@@ -72,13 +65,27 @@ setInterval(function () {
     
 
     for(let i = 1;i<4;i++){ //Getting the interfaces RX packets to monitor if alive
-      auxcom = `ifconfig ${env.process.iface}i |grep "RX packets"`
+
+      switch(i){
+        case 1:
+          auxcom = `ifconfig ${env.process.iface1} |grep "RX packets"`
+          break;
+        case 2:
+          auxcom = `ifconfig ${env.process.iface2} |grep "RX packets"`
+          break;
+        case 3:
+          auxcom = `ifconfig ${env.process.iface3} |grep "RX packets"`
+          break;
+      }
+        
+
       exec(
         auxcom,
         (error,stdout,stderr) => {
           if (error !== null) {
             //console.log("exec error: " + error);
             console.log("At least one Wifi Interface is down")
+            console.log(auxcom)
             ifaces[i-1] = "KO"
           }else{
 
@@ -99,6 +106,8 @@ setInterval(function () {
     dataToSend.iface1 = ifaces[0]
     dataToSend.iface2 = ifaces[1]
     dataToSend.iface3 = ifaces[2]
+
+    dataToSend.timestamp = getFechaCompleta();
     
     
     exec(
