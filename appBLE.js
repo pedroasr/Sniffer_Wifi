@@ -31,11 +31,11 @@ const getFechaCompleta = () => {
 /*MQTT*/
 const options = {
   clean: true, // retain session
-connectTimeout: 4000, // Timeout period
-// Authentication information
-clientId: process.env.id,
-username: process.env.id,
-password: process.env.id,
+  connectTimeout: 4000, // Timeout period
+  // Authentication information
+  clientId: process.env.id+"_BLE",
+  username: process.env.id+"_BLE",
+  password: process.env.id+"_BLE",
 }
 
 const connectUrl = "ws://10.147.18.134:8083/mqtt";

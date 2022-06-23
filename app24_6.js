@@ -16,11 +16,11 @@ const insertInto = db.prepare(
 
 const options = {
   clean: true, // retain session
-connectTimeout: 4000, // Timeout period
-// Authentication information
-clientId: process.env.id,
-username: process.env.id,
-password: process.env.id,
+  connectTimeout: 4000, // Timeout period
+  // Authentication information
+  clientId: process.env.id+"_c6",
+  username: process.env.id+"_c6",
+  password: process.env.id+"_c6",
 }
 
 const connectUrl = "ws://10.147.18.134:8083/mqtt";
