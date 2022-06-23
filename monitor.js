@@ -136,7 +136,7 @@ setInterval(function () {
     )
 
 
-    console.log(`${getFechaCompleta} -- Sending monitoring data to server`)
+    console.log(`${getFechaCompleta()} -- Sending monitoring data to server`)
     client.publish("keepalive",JSON.stringify(dataToSend))
 }, 1000*10*60);
 
