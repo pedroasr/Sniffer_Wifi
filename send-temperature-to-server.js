@@ -11,11 +11,11 @@ setInterval(function () {
         const date = new Date().getTime();
         const temp = parseFloat(stdout / 1000).toString();
         var dataToSend = {
-          deviceID: "PachiBerry",
+          deviceID: "temp-digio",
           value: temp,
           timestamp: date,
         };
-        fetch("http:192.168.0.31:3030/data", {
+        fetch("http://api.digiot.teamcamp.ovh:3030/data", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(dataToSend),

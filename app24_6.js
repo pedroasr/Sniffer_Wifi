@@ -2,6 +2,7 @@ require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
 const mqtt = require("mqtt");
+var cron = require("node-cron");
 
 const Database = require("better-sqlite3");
 const db = new Database("Sniffer-Wifi.db");
@@ -18,13 +19,13 @@ const options = {
   clean: true, // retain session
   connectTimeout: 4000, // Timeout period
   // Authentication information
-  clientId: process.env.id+"_c6",
-  username: process.env.id+"_c6",
-  password: process.env.id+"_c6",
-}
+  clientId: process.env.id + "_c6",
+  username: process.env.id + "_c6",
+  password: process.env.id + "_c6",
+};
 
 const connectUrl = "ws://10.147.18.134:8083/mqtt";
-const client = mqtt.connect(connectUrl,options);
+const client = mqtt.connect(connectUrl, options);
 
 client.on("connect", function () {
   console.log("Connected to MQTT URL");
@@ -44,13 +45,14 @@ const {
 
 let wifidata = {};
 wifidata.id = process.env.id;
+var pcapSession;
 
 function init() {
   console.log("iniciando capturas...");
   // creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
   // sustituir interfaz por la del dispositivo en el que se ejecuta la app
 
-  var pcapSession = pcap.createSession(process.env.iface2, {
+  pcapSession = pcap.createSession(process.env.iface2, {
     filter: "type mgt subtype probe-req",
   });
 
@@ -100,3 +102,9 @@ function init() {
 
 console.log("esperando 5 seg a que se inicie script");
 setTimeout(init, 5000);
+
+cron.schedule("0 */5 * * * *", () => {
+  pcapSession.close();
+  console.log("esperando 5 seg a que se inicie script");
+  setTimeout(init, 5000);
+});
