@@ -45,55 +45,58 @@ const {
 let wifidata = {};
 wifidata.id = process.env.id;
 
-console.log("iniciando capturas...");
-// creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
-// sustituir interfaz por la del dispositivo en el que se ejecuta la app
-var pcapSession = pcap.createSession(process.env.iface1, {
-  filter: "type mgt subtype probe-req",
-});
-let SSID;
-let RSSI;
-let MAC_origen;
-let frec;
-let canal;
-let date;
+function init() {
+  
+  console.log("iniciando capturas...");
+  // creamos sesion de pcap indicando interfaz (en modo monitor con airmon-ng) y filtros
+  // sustituir interfaz por la del dispositivo en el que se ejecuta la app
+  var pcapSession = pcap.createSession(process.env.iface1, {
+    filter: "type mgt subtype probe-req",
+  });
 
-pcapSession.on("packet", (rawPacket) => {
+  let SSID;
+  let RSSI;
+  let MAC_origen;
+  let frec;
+  let canal;
+  let date;
 
-  console.log("--LLEGA ALGO--")
-  var length_RT = rawPacket.buf[2];
-  frec = parseFreq(rawPacket.buf, length_RT);
-  canal = (frec % 2407) / 5;
-  if (canal == 1) {
+  pcapSession.on("packet", (rawPacket) => {
+    var length_RT = rawPacket.buf[2];
+    frec = parseFreq(rawPacket.buf, length_RT);
+    canal = (frec % 2407) / 5;
 
-    console.log("==CANAL 1==")
-    var tipo = parseType(rawPacket.buf, length_RT);
-    SSID = parseSSID(rawPacket.buf, length_RT, tipo);
-    RSSI = parseRSSI(rawPacket.buf, length_RT);
-    MAC_origen = parseSourceMAC(rawPacket.buf, length_RT);
-    date = getFullDate();
-    var disp =
-      `====================\n`.green +
-      `===PROBE RESQUEST===\n`.green +
-      `====================\n`.green +
-      `ssid: ${SSID}\n` +
-      `RSSI: ${RSSI} dBm\n` +
-      `TimeStamp: ${date}\n` +
-      `MAC origen: ${MAC_origen}\n` +
-      `Canal: ${canal}\n`;
-    console.log(disp);
-    wifidata.ssid = SSID;
-    wifidata.rssi = RSSI;
-    wifidata.timestamp = date;
-    wifidata.OrigMAC = MAC_origen;
-    wifidata.canal = canal;
-    client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
-    insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal);
+    if (canal == 1) {
+      var tipo = parseType(rawPacket.buf, length_RT);
+      SSID = parseSSID(rawPacket.buf, length_RT, tipo);
+      RSSI = parseRSSI(rawPacket.buf, length_RT);
+      MAC_origen = parseSourceMAC(rawPacket.buf, length_RT);
+      date = getFullDate();
 
-  }
+      var disp =
+        `====================\n`.green +
+        `===PROBE RESQUEST===\n`.green +
+        `====================\n`.green +
+        `ssid: ${SSID}\n` +
+        `RSSI: ${RSSI} dBm\n` +
+        `TimeStamp: ${date}\n` +
+        `MAC origen: ${MAC_origen}\n` +
+        `Canal: ${canal}\n`;
 
-});
+      console.log(disp);
 
+      wifidata.ssid = SSID;
+      wifidata.rssi = RSSI;
+      wifidata.timestamp = date;
+      wifidata.OrigMAC = MAC_origen;
+      wifidata.canal = canal;
 
-/*console.log("esperando 5 seg a que se inicie script");
-setTimeout(init, 5000);*/
+      client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
+
+      insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal);
+    }
+  });
+}
+
+console.log("esperando 5 seg a que se inicie script");
+setTimeout(init, 5000);
