@@ -137,16 +137,31 @@ echo "iface3="$iface3 >> .env
 echo "id="$hostname >> .env
 
 sleep 1
+
 echo "bajando interfaces wifi $iface1, $iface2, $iface3"
 ip link set $iface1 down
 ip link set $iface2 down
 ip link set $iface3 down
 sleep 2
-echo "cambiando interfaces wifi $iface1, $iface2, $iface3 a modo monitor..."
+
+echo "cambiando interfaz wifi $iface1 a modo monitor..."
 iw dev $iface1 set type monitor
+iw dev $iface1 set type monitor
+iw dev $iface1 set type monitor
+sleep 2
+
+echo "cambiando interfaz wifi $iface2 a modo monitor..."
 iw dev $iface2 set type monitor
+iw dev $iface2 set type monitor
+iw dev $iface2 set type monitor
+sleep 2
+
+echo "cambiando interfaz wifi $iface3 a modo monitor..."
+iw dev $iface3 set type monitor
+iw dev $iface3 set type monitor
 iw dev $iface3 set type monitor
 sleep 2
+
 echo "levantando interfaz wifi $iface1, $iface2, $iface3..."
 ip link set $iface1 up
 ip link set $iface2 up
