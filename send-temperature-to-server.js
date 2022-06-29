@@ -11,7 +11,7 @@ setInterval(function () {
         const date = new Date().getTime();
         const temp = parseFloat(stdout / 1000).toString();
         var dataToSend = {
-          deviceID: "temp-digio",
+          sensorId: "temp-digio",
           value: temp,
           timestamp: date,
         };
