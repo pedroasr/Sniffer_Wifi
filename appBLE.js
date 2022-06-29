@@ -68,7 +68,7 @@ const insertInto = db.prepare(
 );
 
 const serialport = new SerialPort({
-  path: stdout,
+  path: espdir,
   baudRate: 115200,
   parity: "even",
   stopBits: 1,
