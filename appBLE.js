@@ -5,7 +5,8 @@ const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
 
 let espdir = '/dev/ttyUSB0'
-let connected = false
+var serialport;
+
 //get esp32 dir
 exec(
   "ls /dev/ttyUSB*",
@@ -16,23 +17,23 @@ exec(
     }else{
 
       console.log(stdout)
-      connected=true;
       espdir = stdout
+      serialport = new SerialPort({
+        path: stdout,
+        baudRate: 115200,
+        parity: "even",
+        stopBits: 1,
+        dataBits: 8,
+        flowControl: false,
+      });
       
     }
   }
 )
 
-while(!connected){
-  const serialport = new SerialPort({
-    path: espdir,
-    baudRate: 115200,
-    parity: "even",
-    stopBits: 1,
-    dataBits: 8,
-    flowControl: false,
-  });
-}
+
+  
+
 
 
 
