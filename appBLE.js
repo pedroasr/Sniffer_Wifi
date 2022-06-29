@@ -63,30 +63,8 @@ async function getESPDir() {
   
 }
 
-const serialport = new SerialPort({
-  path: getESPDir(),
-  baudRate: 115200,
-  parity: "even",
-  stopBits: 1,
-  dataBits: 8,
-  flowControl: false,
-});
-
-
-let limit = Buffer.from([0xaa, 0xaa]);
-
-const parser = serialport.pipe(
-  new ReadlineParser({ delimiter: limit, encoding: "hex" })
-);
-
-let chain = "";
-
-let dato = {};
-dato.idRasp = process.env.id;
-
-parser.on("data", function (buff) {
-  //console.log(buff.toString('hex'))
-  //chain += buff.toString('hex')
+/* Data processing */
+function ble_process(buff){
   chain = buff.toString("hex"); //va de uno a uno
 
   if (chain.length == 46 * 2) {
@@ -198,4 +176,46 @@ parser.on("data", function (buff) {
       client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
     }
   }
-});
+}
+
+let chain = "";
+
+let dato = {};
+dato.idRasp = process.env.id;
+
+function init(){
+
+  let espdir = getESPDir();
+
+
+  const serialport = new SerialPort({
+    path: espdir,
+    baudRate: 115200,
+    parity: "even",
+    stopBits: 1,
+    dataBits: 8,
+    flowControl: false,
+  });
+
+
+  let limit = Buffer.from([0xaa, 0xaa]);
+
+  const parser = serialport.pipe(
+    new ReadlineParser({ delimiter: limit, encoding: "hex" })
+  );
+
+
+
+  parser.on("data", function (datos) {
+
+    ble_process(datos)
+
+  });
+
+
+}
+
+console.log("Wait for ESP32 path")
+setTimeout(init,1000)
+
+
