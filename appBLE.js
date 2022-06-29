@@ -3,8 +3,25 @@ require("dotenv").config();
 const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
 
+let espdir = '/dev/ttyUSB0'
+//get esp32 dir
+exec(
+  "ls /dev/ttyUSB*",
+  (error,stdout,stderr) => {
+    if (error !== null) {
+      console.log("ESP32 disconnected");
+      
+    }else{
+
+      console.log(stdout)
+      espdir = stdout
+      
+    }
+  }
+)
+
 const serialport = new SerialPort({
-  path: "/dev/ttyUSB0",
+  path: espdir,
   baudRate: 115200,
   parity: "even",
   stopBits: 1,
