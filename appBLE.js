@@ -1,3 +1,4 @@
+const { exec } = require("child_process");
 const { SerialPort, ReadlineParser } = require("serialport");
 require("dotenv").config();
 const Database = require("better-sqlite3");
