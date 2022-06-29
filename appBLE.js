@@ -4,24 +4,6 @@ require("dotenv").config();
 const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
 
-let espdir = '/dev/ttyUSB0'
-
-//get esp32 dir
-exec(
-  "ls /dev/ttyUSB*",
-  (error,stdout,stderr) => {
-    if (error !== null) {
-      console.log("ESP32 disconnected");
-      
-    }else{
-
-      console.log(stdout)
-      espdir = stdout
-      
-      
-    }
-  }
-)
 
 
 /* Timestamp*/
@@ -67,8 +49,22 @@ const insertInto = db.prepare(
   "INSERT INTO ble_data (Id,MAC,TipoMAC,TipoADV,BLE_Size,RSP_Size,BLE_Data,RSSI,Nseq,Timestamp) VALUES (?,?,?,?,?,?,?,?,?,?)"
 );
 
+/*Get ESP32 path */
+async function getESPDir() {
+
+  let ports = await SerialPort.list();
+  for (p in ports){
+      
+      if(ports[p].path.includes("/dev/ttyUSB")){
+         //console.log(ports[p].path) 
+         return ports[p].path;
+      }
+  }
+  
+}
+
 const serialport = new SerialPort({
-  path: espdir,
+  path: getESPDir(),
   baudRate: 115200,
   parity: "even",
   stopBits: 1,
