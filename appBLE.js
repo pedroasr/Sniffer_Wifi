@@ -5,7 +5,6 @@ const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
 
 let espdir = '/dev/ttyUSB0'
-var serialport;
 
 //get esp32 dir
 exec(
@@ -18,24 +17,11 @@ exec(
 
       console.log(stdout)
       espdir = stdout
-      serialport = new SerialPort({
-        path: stdout,
-        baudRate: 115200,
-        parity: "even",
-        stopBits: 1,
-        dataBits: 8,
-        flowControl: false,
-      });
+      
       
     }
   }
 )
-
-
-  
-
-
-
 
 
 /* Timestamp*/
@@ -80,6 +66,16 @@ db.exec(createTable);
 const insertInto = db.prepare(
   "INSERT INTO ble_data (Id,MAC,TipoMAC,TipoADV,BLE_Size,RSP_Size,BLE_Data,RSSI,Nseq,Timestamp) VALUES (?,?,?,?,?,?,?,?,?,?)"
 );
+
+const serialport = new SerialPort({
+  path: stdout,
+  baudRate: 115200,
+  parity: "even",
+  stopBits: 1,
+  dataBits: 8,
+  flowControl: false,
+});
+
 
 let limit = Buffer.from([0xaa, 0xaa]);
 
