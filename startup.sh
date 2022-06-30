@@ -131,10 +131,13 @@ echo $iface1
 echo $iface2
 echo $iface3
 
+espath=$(ls /dev/ttyUSB*)
+
 echo "iface1="$iface1 >> .env
 echo "iface2="$iface2 >> .env
 echo "iface3="$iface3 >> .env
 echo "id="$hostname >> .env
+echo "espath="$espath >> .env
 
 sleep 1
 

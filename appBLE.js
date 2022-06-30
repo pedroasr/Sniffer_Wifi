@@ -183,10 +183,9 @@ let chain = "";
 let dato = {};
 dato.idRasp = process.env.id;
 
+var espdir =  process.env.espath;
+
 function init(){
-
-  let espdir = getESPDir();
-
 
   const serialport = new SerialPort({
     path: espdir,
@@ -216,6 +215,6 @@ function init(){
 }
 
 console.log("Wait for ESP32 path")
-setTimeout(init,1000)
+setTimeout(init,2000)
 
 
