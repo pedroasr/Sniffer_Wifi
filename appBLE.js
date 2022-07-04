@@ -49,19 +49,7 @@ const insertInto = db.prepare(
   "INSERT INTO ble_data (Id,MAC,TipoMAC,TipoADV,BLE_Size,RSP_Size,BLE_Data,RSSI,Nseq,Timestamp) VALUES (?,?,?,?,?,?,?,?,?,?)"
 );
 
-/*Get ESP32 path */
-async function getESPDir() {
 
-  let ports = await SerialPort.list();
-  for (p in ports){
-      
-      if(ports[p].path.includes("/dev/ttyUSB")){
-         //console.log(ports[p].path) 
-         return ports[p].path;
-      }
-  }
-  
-}
 
 /* Data processing */
 function ble_process(buff){
@@ -187,6 +175,8 @@ var espdir =  process.env.espath;
 
 function init(){
 
+  espdir = process.env.espath;
+
   const serialport = new SerialPort({
     path: espdir,
     baudRate: 115200,
@@ -214,7 +204,6 @@ function init(){
 
 }
 
-console.log("Wait for ESP32 path")
-setTimeout(init,2000)
+init();
 
 

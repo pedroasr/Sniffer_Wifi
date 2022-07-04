@@ -5,9 +5,82 @@
 
 rm .env
 
-# Hay que editar esta variable para que funcione
-ipint="192.168.102.X" 
-hostname="Raspberry1"
+# Hay que crear archivo intconfig en ~
+
+mac=$(cat /home/kali/intconfig |grep -oP "mac=\K.*")
+eth=$(cat /home/kali/intconfig |grep -oP "eth=\K.*")
+ipint=$(cat /home/kali/intconfig |grep -oP "wlan=\K.*")
+hostname=$(cat /home/kali/intconfig |grep -oP "id=\K.*")
+
+echo "Connecting to Wifi IoTUT"
+
+echo "Remember to create intconfig file in ~"
+echo "Deactivating NetworkManager"
+systemctl stop NetworkManager
+#systemctl disable NetworkManager in case of fail use restart rasp
+ifconfig eth0 up
+ifconfig wlan0 up
+ifconfig wlan1 up
+ifconfig wlan2 up
+ifconfig wlan3 up
+
+echo "Detecting integrated wifi interface"
+ipa=$(ip address show dev wlan0|grep ether)
+
+
+for i in $ipa; do
+	if [[ $i == $mac ]]
+	then
+		echo $i
+		internetiface="wlan0"
+	fi
+done
+
+ipa=$(ip address show dev wlan1|grep ether)
+
+
+for i in $ipa; do
+        if [[ $i == $mac ]]
+        then
+                echo $i
+                internetiface="wlan1"
+        fi
+done
+
+ipa=$(ip address show dev wlan2|grep ether)
+
+
+for i in $ipa; do
+        if [[ $i == $mac ]]
+        then
+                echo $i
+                internetiface="wlan2"
+        fi
+done
+
+
+ipa=$(ip address show dev wlan3|grep ether)
+
+
+for i in $ipa; do
+        if [[ $i == $mac ]]
+        then
+                echo $i
+                internetiface="wlan3"
+        fi
+done
+
+echo "Integrated interface is "$internetiface
+wpa_supplicant -B -i $internetiface -c<(wpa_passphrase "IoTUT" "vp:tppsd44")
+
+
+
+ip address add $eth/24 dev eth0
+ip address add $ipint/24 dev $internetiface
+ip route add default via 192.168.102.254 dev $internetiface
+echo "Interfaces ready!"
+
+##Interfaces in monitor mode
 ####################################################
 
 if [[ $ipint == "192.168.102.X" ]]	#Me pasa que se me olvida configurar esto

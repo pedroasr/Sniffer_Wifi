@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { exec } = require("child_process");
 const mqtt = require("mqtt");
 require("dotenv").config();
@@ -16,8 +17,15 @@ password: process.env.id,
 const connectUrl = "ws://10.147.18.134:8083/mqtt";
 const client = mqtt.connect(connectUrl,options);
 
+let topics = ["CRAIUPCT_BLEdata","CRAIUPCT_WifiData"]; //Watchdog
 client.on("connect", function () {
   console.log("Connected to MQTT URL");
+
+  client.subscribe(topics, function (err) {
+    if (!err) {
+      console.log("MQTT CLIENT Subscribed")
+    }
+  })
 });
 
 /* Timestamp*/
@@ -139,4 +147,127 @@ setInterval(function () {
     console.log(`${getFechaCompleta()} -- Sending monitoring data to server`)
     client.publish("keepalive",JSON.stringify(dataToSend))
 }, 1000*10*60);
+
+
+/*Local monitoring */
+let ble_timestamp_w = '';
+let wific1_timestamp_w = '';
+let wific6_timestamp_w = '';
+let wific11_timestamp_w = '';
+let ble_timestamp;
+let wific1_timestamp;
+let wific6_timestamp;
+let wific11_timestamp;
+let onboot = true
+
+
+client.on('message', function (topic, message) {
+
+  switch(topic){
+
+    case 'CRAIUPCT_BLEdata':
+      
+      ble_timestamp = JSON.parse(message)
+
+      break;
+
+    case 'CRAIUPCT_WifiData':
+      
+      //console.log(JSON.parse(message))
+      let wifid = JSON.parse(message)
+
+      if(wifid.canal == 1)
+        wific1_timestamp = wifid.timestamp;
+      else if(wifid.canal == 6)
+        wific6_timestamp = wifid.timestamp;
+      else if(wifid.canal == 11)
+        wific11_timestamp = wifid.timestamp;
+      break;
+    
+
+  }
+  
+    
+
+})
+
+const getFromEnv = (name,nloc) => {
+  fs.readFile(".env","utf-8",(err,data)=>{
+      if(err)
+          throw err
+      
+      console.log("Last name was " + data.split(name+"=")[1])
+
+      //name changed
+      if(data.split(name+"=")[1] != nloc){
+
+          //get everything but name
+          newenv = data.split(name)[0]
+      
+      
+          for(let i = data.indexOf(name);i<(data.indexOf(name)+name.length);i++){
+              newenv += data[i]
+          }
+
+          newenv += "="+nloc
+
+          fs.writeFile(".env", newenv, { flag: 'w' }, err => {});   
+
+          console.log("ESP path was changed")
+
+          
+      }
+
+      //Restart ESP program
+      exec("pm2 restart appBLE.js",(error,stdout,stderr)=>{
+
+        console.log("ESP program restarted")
+        
+      })
+  })
+}
+
+const checkOut = () => {
+  if(onboot){ //First time wont do anything
+
+    ble_timestamp_w = ble_timestamp
+    wific1_timestamp_w = wific1_timestamp
+    wific6_timestamp_w = wific6_timestamp
+    wific11_timestamp_w = wific11_timestamp
+    onboot = false
+    
+  }else{    //Now check that is sending
+
+    if(ble_timestamp_w == ble_timestamp){
+      
+      exec(
+        "ls /dev/ttyUSB*",
+        (error,stdout,stderr) => {
+      
+          if(error)
+              console.log("Nothing I can do, just warn")
+              //send warning here
+          else{
+              console.log("Checking ESP32 path")
+              console.log(stdout)
+
+              getFromEnv("espath",stdout)
+          }
+          
+        }
+      )
+        
+
+    }
+      
+
+  }
+}
+
+
+setInterval(
+  checkOut,
+  1000*60*10
+)
+
 
