@@ -167,7 +167,7 @@ client.on('message', function (topic, message) {
 
     case 'CRAIUPCT_BLEdata':
       
-      ble_timestamp = JSON.parse(message)
+      ble_timestamp = JSON.parse(message).timestamp
 
       break;
 
