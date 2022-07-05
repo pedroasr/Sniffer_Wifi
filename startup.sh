@@ -79,6 +79,9 @@ wpa_supplicant -B -i $internetiface -c<(wpa_passphrase "IoTUT" "vp:tppsd44")
 ip address add $eth/24 dev eth0
 ip address add $ipint/24 dev $internetiface
 ip route add default via 192.168.102.254 dev $internetiface
+sh -c "echo nameserver 212.128.20.252 >> /etc/resolv.conf"
+sh -c "echo nameserver 212.128.20.9 >> /etc/resolv.conf"
+
 echo "Interfaces ready!"
 
 ##Interfaces in monitor mode
