@@ -239,6 +239,8 @@ const checkOut = () => {
   }else{    //Now check that is sending
 
     if(ble_timestamp_w == ble_timestamp){
+
+      console.log("TIMEOUT!")
       
       exec(
         "ls /dev/ttyUSB*",
@@ -256,10 +258,9 @@ const checkOut = () => {
           
         }
       )
-        
 
     }
-      
+    ble_timestamp_w = ble_timestamp
 
   }
 }
@@ -267,7 +268,7 @@ const checkOut = () => {
 
 setInterval(
   checkOut,
-  1000*60*10
+  1000*60*5
 )
 
 

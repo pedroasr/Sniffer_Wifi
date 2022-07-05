@@ -71,6 +71,7 @@ for i in $ipa; do
 done
 
 echo "Integrated interface is "$internetiface
+echo $internetiface > /home/kali/wififace
 wpa_supplicant -B -i $internetiface -c<(wpa_passphrase "IoTUT" "vp:tppsd44")
 
 
@@ -82,12 +83,6 @@ echo "Interfaces ready!"
 
 ##Interfaces in monitor mode
 ####################################################
-
-if [[ $ipint == "192.168.102.X" ]]	#Me pasa que se me olvida configurar esto
-then
-		echo "No IP Assigned, stopping!"
-		exit 0
-fi
 	
 
 old_host=$(cat /etc/hostname)

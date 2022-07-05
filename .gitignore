@@ -6,3 +6,4 @@ coverage/
 **/.DS_Store
 DatosBLE.db
 .env
+wifimonit.log
