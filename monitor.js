@@ -168,7 +168,7 @@ client.on('message', function (topic, message) {
     case 'CRAIUPCT_BLEdata':
       
       let msgdata = JSON.parse(message)
-      if(msgdata == process.env.id)
+      if(msgdata.id == process.env.id)
         ble_timestamp = msgdata.timestamp
 
       break;
@@ -271,7 +271,7 @@ checkOut();
 
 setInterval(
   checkOut,
-  1000*60*5
+  1000*60*10
 )
 
 
