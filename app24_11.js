@@ -1,7 +1,7 @@
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
-
+const mqtt = require("mqtt");
 var cron = require("node-cron");
 
 const Database = require("better-sqlite3");
@@ -13,6 +13,23 @@ const insertInto = db.prepare(
   "INSERT INTO ProbeRequestFrames (timestamp, snifferId, SSID, RSSI, MAC_origen, canal, Rates, HTC_Capabilities, Vendor_Specific, Extended_rates, Extended_HTC_Capabilities, VHT_Capabilities) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 );
 
+//=========================MQTT===========================
+
+const options = {
+  clean: true, // retain session
+  connectTimeout: 4000, // Timeout period
+  // Authentication information
+  clientId: process.env.id + "_c11",
+  username: process.env.id + "_c11",
+  password: process.env.id + "_c11",
+};
+
+const connectUrl = "ws://10.147.18.134:8083/mqtt";
+const client = mqtt.connect(connectUrl, options);
+
+client.on("connect", function () {
+  console.log("Connected to MQTT URL");
+});
 
 // ====================== SNIFFER WIFI ==================================
 
@@ -133,8 +150,14 @@ function init() {
       wifidata.timestamp = date;
       wifidata.OrigMAC = MAC_origen;
       wifidata.canal = canal;
+      wifidata.rate = rate;
+      wifidata.htccap = htccap;
+      wifidata.vendorspecific = vendorspecific;
+      wifidata.extendedrates = extendedrates;
+      wifidata.extendedhtc = extendedhtc;
+      wifidata.vhtcap = vhtcap;
 
-     // client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
+      client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
 
       insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal,rate,htccap,vendorspecific,extendedrates,extendedhtc,vhtcap);
       rate = 0x0
