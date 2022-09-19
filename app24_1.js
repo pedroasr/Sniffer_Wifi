@@ -44,7 +44,7 @@ const {
 } = require("./functions");
 
 let wifidata = {};
-wifidata.id = "C1";
+wifidata.id = process.env.id;
 var pcapSession;
 
 let rate = 0x0
