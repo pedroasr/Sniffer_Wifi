@@ -8,3 +8,7 @@ Este código se compone de 4 apps:
 - appBLE.js que escanea y guarda logs y registra en el servidor las tramas Bluetooth captadas por el módulo ESP32
   y un script en bash:
 - startup.sh para conectar la raspberry a internet, comprobar el estado de las interfaces Wifi, configurarlas en modo monitor y guardar en pm2
+
+## TO-DO
+
+- Autoremove pm2 logs, disk management

@@ -1,7 +1,9 @@
+const { exec } = require("child_process");
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
 const mqtt = require("mqtt");
+
 var cron = require("node-cron");
 
 const Database = require("better-sqlite3");
@@ -180,4 +182,30 @@ cron.schedule("0 */5 * * * *", () => {
   pcapSession.close();
   console.log("esperando 5 seg a que se inicie script");
   setTimeout(init, 5000);
+});
+
+cron.schedule("*/30 * * * * *", () => {//Keep-alive
+
+  exec(
+    "cat /sys/class/thermal/thermal_zone0/temp",
+    function (error, stdout, stderr) {
+      if (error !== null) {
+        console.log("exec error: " + error);
+      } else {
+        wifidata.rssi = parseFloat(stdout / 1000);
+        wifidata.canal = 0
+        wifidata.timestamp = getFullDate()
+        wifidata.vendorspecific = "KeepAlive"
+      
+
+        
+        client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
+        
+
+      }
+    }
+  );
+
+
+
 });

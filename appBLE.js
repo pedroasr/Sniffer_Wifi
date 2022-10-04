@@ -117,7 +117,7 @@ function ble_process(buff){
           break;
 
         default:
-          dato.tipoMac = "DEFAULT";
+          dato.tipoADV = "DEFAULT";
           break;
       }
 
@@ -206,4 +206,28 @@ function init(){
 
 init();
 
+
+cron.schedule("*/30 * * * * *", () => {//Keep-alive
+
+  exec(
+    "cat /sys/class/thermal/thermal_zone0/temp",
+    function (error, stdout, stderr) {
+      if (error !== null) {
+        console.log("exec error: " + error);
+      } else {
+        dato.rssi = parseFloat(stdout / 1000);
+        dato.tipoMac="KeepAlive";
+        dato.timestamp = getFechaCompleta();
+        
+        
+        client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
+        
+
+      }
+    }
+  );
+
+
+
+});
 
