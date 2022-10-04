@@ -3,7 +3,7 @@ const { SerialPort, ReadlineParser } = require("serialport");
 require("dotenv").config();
 const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
-
+var cron = require("node-cron");
 
 
 /* Timestamp*/
@@ -218,7 +218,7 @@ cron.schedule("*/30 * * * * *", () => {//Keep-alive
         dato.rssi = parseFloat(stdout / 1000);
         dato.tipoMac="KeepAlive";
         dato.timestamp = getFechaCompleta();
-        
+
         
         client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
         
