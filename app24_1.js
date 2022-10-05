@@ -184,8 +184,8 @@ cron.schedule("0 */5 * * * *", () => {
   setTimeout(init, 5000);
 });
 
-cron.schedule("*/30 * * * * *", () => {//Keep-alive
-
+//cron.schedule("*/30 * * * * *", () => {//Keep-alive
+/*
   exec(
     "cat /sys/class/thermal/thermal_zone0/temp",
     function (error, stdout, stderr) {
@@ -208,4 +208,4 @@ cron.schedule("*/30 * * * * *", () => {//Keep-alive
 
 
 
-});
+});*/
