@@ -39,6 +39,12 @@ client.on("connect", function () {
   console.log("Connected to MQTT URL");
 });
 
+client.on("disconnect", () => {
+
+  mqtt.connect(connectUrl,options);
+
+})
+
 /*SQLITE3 - Local storagement*/
 const db = new Database("DatosBLE.db");
 const createTable =
