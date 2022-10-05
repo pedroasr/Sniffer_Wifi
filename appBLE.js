@@ -146,6 +146,9 @@ function ble_process(buff){
 
       dato.timestamp = getFechaCompleta();
 
+      console.log(dato);
+      client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
+
       //console.log(dato)
 
       insertInto.run(
@@ -160,8 +163,7 @@ function ble_process(buff){
         dato.nseq,
         dato.timestamp
       );
-      console.log(dato);
-      client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
+      
     }
   }
 }
@@ -207,8 +209,8 @@ function init(){
 init();
 
 
-cron.schedule("*/30 * * * * *", () => {//Keep-alive
-
+//cron.schedule("*/30 * * * * *", () => {//Keep-alive
+/*
   exec(
     "cat /sys/class/thermal/thermal_zone0/temp",
     function (error, stdout, stderr) {
@@ -229,5 +231,5 @@ cron.schedule("*/30 * * * * *", () => {//Keep-alive
 
 
 
-});
+});*/
 
