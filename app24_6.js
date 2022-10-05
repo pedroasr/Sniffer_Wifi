@@ -180,27 +180,31 @@ cron.schedule("0 */5 * * * *", () => {
   setTimeout(init, 5000);
 });
 
-//cron.schedule("*/30 * * * * *", () => {//Keep-alive
-/*
+
+let ka = wifidata
+
+setInterval(()=>{
+
   exec(
     "cat /sys/class/thermal/thermal_zone0/temp",
     function (error, stdout, stderr) {
       if (error !== null) {
         console.log("exec error: " + error);
       } else {
-        wifidata.rssi = parseFloat(stdout / 1000);
-        wifidata.canal = 5
-        wifidata.timestamp = getFullDate()
-        wifidata.vendorspecific = "KeepAlive"
 
+        ka = wifidata
         
-        client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
+        ka.rssi = parseFloat(stdout / 1000);
+        ka.canal = 5
+        ka.timestamp = getFullDate()
+        ka.ssid = "KeepAlive"
+      
+
+        client.publish("CRAIUPCT_WifiData", JSON.stringify(ka));
         
 
       }
     }
   );
 
-
-
-});*/
+}, 30000);

@@ -194,6 +194,9 @@ setInterval(()=>{
       if (error !== null) {
         console.log("exec error: " + error);
       } else {
+        
+        ka = wifidata
+
         ka.rssi = parseFloat(stdout / 1000);
         ka.canal = 0
         ka.timestamp = getFullDate()
