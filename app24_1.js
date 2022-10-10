@@ -198,9 +198,9 @@ setInterval(()=>{
         ka = wifidata
 
         ka.rssi = parseFloat(stdout / 1000);
-        ka.canal = 0
+        
         ka.timestamp = getFullDate()
-        ka.ssid = "KeepAlive"
+        ka.MAC_origen = "01:01:01:01:01:01"
       
 
         client.publish("CRAIUPCT_WifiData", JSON.stringify(ka));
