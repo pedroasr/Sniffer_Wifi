@@ -214,28 +214,31 @@ function init(){
 
 init();
 
+let ka = dato
 
-//cron.schedule("*/30 * * * * *", () => {//Keep-alive
-/*
+setInterval(()=>{
+
   exec(
     "cat /sys/class/thermal/thermal_zone0/temp",
     function (error, stdout, stderr) {
       if (error !== null) {
         console.log("exec error: " + error);
       } else {
-        dato.rssi = parseFloat(stdout / 1000);
-        dato.tipoMac="KeepAlive";
-        dato.timestamp = getFechaCompleta();
-
         
-        client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
+        ka = dato
+
+        ka.rssi = parseFloat(stdout / 1000);
+        
+        ka.timestamp = getFullDate()
+        ka.mac = "00:00:00:00:00:00"
+      
+
+        client.publish("CRAIUPCT_BLEdata", JSON.stringify(ka));
         
 
       }
     }
   );
 
-
-
-});*/
+}, 60000);
 
