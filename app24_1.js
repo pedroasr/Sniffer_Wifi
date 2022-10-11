@@ -200,7 +200,7 @@ setInterval(()=>{
         ka.rssi = parseFloat(stdout / 1000);
         
         ka.timestamp = getFullDate()
-        ka.MAC_origen = "01:01:01:01:01:01"
+        ka.OrigMAC = "01:01:01:01:01:01"
       
 
         client.publish("CRAIUPCT_WifiData", JSON.stringify(ka));
