@@ -7,11 +7,15 @@ var cron = require("node-cron");
 
 
 /* Timestamp*/
+//Funciones para tomar el instante actual, formato: YYYY-MM-DD HH:MM:SS
+
+//Esta funcion mete ceros a la izquierda si el numero es menor de 10
 function pad(n, z) {
   z = z || 2;
   return ("00" + n).slice(-z);
 }
 
+//Aqui se obtiene la fecha
 const getFechaCompleta = () => {
   let d = new Date(),
     dformat =
@@ -23,6 +27,8 @@ const getFechaCompleta = () => {
 };
 
 /*MQTT*/
+
+//En estas lineas se crea la conexion MQTT
 const options = {
   clean: true, // retain session
   connectTimeout: 4000, // Timeout period
@@ -39,6 +45,10 @@ client.on("connect", function () {
   console.log("Connected to MQTT URL");
 });
 
+client.on('error', (error) => {
+  console.log('Connection failed:', error)
+})
+
 client.on("disconnect", () => {
 
   mqtt.connect(connectUrl,options);
@@ -46,6 +56,7 @@ client.on("disconnect", () => {
 })
 
 /*SQLITE3 - Local storagement*/
+//Configuracion SQLITE3
 const db = new Database("DatosBLE.db");
 const createTable =
   "CREATE TABLE IF NOT EXISTS ble_data ('Id','MAC','TipoMAC','TipoADV','BLE_Size','RSP_Size','BLE_Data','RSSI','Nseq','Timestamp')";
@@ -58,6 +69,7 @@ const insertInto = db.prepare(
 
 
 /* Data processing */
+//Se llama a esta funcion para procesar los datos
 function ble_process(buff){
   chain = buff.toString("hex"); //va de uno a uno
 
@@ -214,6 +226,7 @@ function init(){
 
 init();
 
+//Keep alive
 let ka = dato
 
 setInterval(()=>{
@@ -229,7 +242,7 @@ setInterval(()=>{
 
         ka.rssi = parseFloat(stdout / 1000);
         
-        ka.timestamp = getFullDate()
+        ka.timestamp = getFechaCompleta()
         ka.mac = "00:00:00:00:00:00"
       
 
