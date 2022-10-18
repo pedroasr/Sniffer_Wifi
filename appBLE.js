@@ -57,7 +57,10 @@ client.on("disconnect", () => {
 
 /*SQLITE3 - Local storagement*/
 //Configuracion SQLITE3
-const db = new Database("DatosBLE.db");
+
+let db_name = getFechaCompleta().split(" ")[0]+"_"+"DatosBLE_"+process.env.id+".db"
+
+const db = new Database(db_name);
 const createTable =
   "CREATE TABLE IF NOT EXISTS ble_data ('Id','MAC','TipoMAC','TipoADV','BLE_Size','RSP_Size','BLE_Data','RSSI','Nseq','Timestamp')";
 db.exec(createTable);

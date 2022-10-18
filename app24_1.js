@@ -7,7 +7,19 @@ const mqtt = require("mqtt");
 var cron = require("node-cron");
 
 const Database = require("better-sqlite3");
-const db = new Database("Sniffer-Wifi.db");
+
+const {
+  parseSSID,
+  parseType,
+  parseFreq,
+  getFullDate,
+  parseRSSI,
+  parseSourceMAC,
+} = require("./functions");
+
+let db_name = getFullDate().split(" ")[0]+"_"+"Sniffer-Wific1_"+process.env.id+".db"
+
+const db = new Database(db_name);
 const createTable =
   "CREATE TABLE IF NOT EXISTS ProbeRequestFrames ('timestamp', 'snifferId', 'SSID', 'RSSI', 'MAC_origen', 'canal','Rates','HTC_Capabilities','Vendor_Specific','Extended_rates','Extended_HTC_Capabilities','VHT_Capabilities')";
 db.exec(createTable);
@@ -36,14 +48,7 @@ client.on("connect", function () {
 // ====================== SNIFFER WIFI ==================================
 
 const snifferId = "sniffer2.4Ghz_1"; //cambiar por id del sniffer en el que se ejecute
-const {
-  parseSSID,
-  parseType,
-  parseFreq,
-  getFullDate,
-  parseRSSI,
-  parseSourceMAC,
-} = require("./functions");
+
 
 let wifidata = {};
 wifidata.id = process.env.id;

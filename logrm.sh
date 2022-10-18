@@ -10,7 +10,8 @@ rm /root/.pm2/logs/appBLE-out.log
 
 rm /home/kali/Sniffer_Wifi/DatosBLE.db
 
-rm /home/kali/Sniffer_Wifi/Sniffer-Wifi.db
+#id=$(cat /home/kali/intconfig |grep -oP "id=\K.*")
+
 
 pm2 start all
 
