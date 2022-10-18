@@ -167,7 +167,7 @@ function ble_process(buff){
 
       dato.timestamp = getFechaCompleta();
 
-      console.log(dato);
+      //console.log(dato);
       client.publish("CRAIUPCT_BLEdata", JSON.stringify(dato));
 
       //console.log(dato)

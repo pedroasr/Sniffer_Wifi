@@ -1,3 +1,4 @@
+const { exec } = require("child_process");
 require("dotenv").config();
 const pcap = require("pcap");
 const colors = require("colors");
@@ -74,7 +75,7 @@ const checkProbe = (rawData) => {
 		else{
 
 			let fr = rawData.slice(i,rawData[i+1]+i+2)
-			console.log(fr," - ",i)
+			//console.log(fr," - ",i)
 			i+=rawData[i+1]+2
 			switch(fr[0]){
 				case 01:
@@ -101,12 +102,12 @@ const checkProbe = (rawData) => {
 		}
 
 	}
-	console.log("rates: ",rate)
-	console.log("vendor specific: ",vendorspecific)
-	console.log("htc cap: ",htccap)
-	console.log("ext rates: ",extendedrates)
-	console.log("ext htc cap: ",extendedhtc)
-	console.log("vht cap: ",vhtcap)
+	//console.log("rates: ",rate)
+	//console.log("vendor specific: ",vendorspecific)
+	//console.log("htc cap: ",htccap)
+	//console.log("ext rates: ",extendedrates)
+	//console.log("ext htc cap: ",extendedhtc)
+	//console.log("vht cap: ",vhtcap)
 
 }
 
@@ -147,7 +148,7 @@ function init() {
         `MAC origen: ${MAC_origen}\n` +
         `Canal: ${canal}\n`;
 
-      console.log(disp);
+      //console.log(disp);
       //console.log(rawPacket.buf)
       checkProbe(rawPacket.buf.slice(42,rawPacket.buf.length))
 
