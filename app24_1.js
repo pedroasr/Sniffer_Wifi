@@ -25,7 +25,7 @@ const createTable =
   "CREATE TABLE IF NOT EXISTS ProbeRequestFrames ('timestamp', 'NSeq','snifferId', 'SSID', 'RSSI', 'MAC_origen', 'canal','Rates','HTC_Capabilities','Vendor_Specific','Extended_rates','Extended_HTC_Capabilities','VHT_Capabilities')";
 db.exec(createTable);
 const insertInto = db.prepare(
-  "INSERT INTO ProbeRequestFrames (timestamp, NSeq, snifferId, SSID, RSSI, MAC_origen, canal, Rates, HTC_Capabilities, Vendor_Specific, Extended_rates, Extended_HTC_Capabilities, VHT_Capabilities) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+  "INSERT INTO ProbeRequestFrames (timestamp, NSeq, snifferId, SSID, RSSI, MAC_origen, canal, Rates, HTC_Capabilities, Vendor_Specific, Extended_rates, Extended_HTC_Capabilities, VHT_Capabilities) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 );
 
 //=========================MQTT===========================
