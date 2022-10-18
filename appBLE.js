@@ -38,7 +38,7 @@ const options = {
   password: process.env.id+"_BLE",
 }
 
-const connectUrl = "ws://10.147.18.134:8083/mqtt";
+const connectUrl = "ws://212.128.44.50:8083/mqtt";
 const client = mqtt.connect(connectUrl,options);
 
 client.on("connect", function () {
@@ -54,6 +54,7 @@ client.on("disconnect", () => {
   mqtt.connect(connectUrl,options);
 
 })
+
 
 /*SQLITE3 - Local storagement*/
 //Configuracion SQLITE3
