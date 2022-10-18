@@ -17,14 +17,15 @@ const {
 } = require("./functions");
 
 let db_name = getFullDate().split(" ")[0]+"_"+"Sniffer-Wific6_"+process.env.id+".db"
+let nseq = 0;
 
 const db = new Database(db_name);
 
 const createTable =
-  "CREATE TABLE IF NOT EXISTS ProbeRequestFrames ('timestamp', 'snifferId', 'SSID', 'RSSI', 'MAC_origen', 'canal','Rates','HTC_Capabilities','Vendor_Specific','Extended_rates','Extended_HTC_Capabilities','VHT_Capabilities')";
+  "CREATE TABLE IF NOT EXISTS ProbeRequestFrames ('timestamp', 'NSeq', 'snifferId', 'SSID', 'RSSI', 'MAC_origen', 'canal','Rates','HTC_Capabilities','Vendor_Specific','Extended_rates','Extended_HTC_Capabilities','VHT_Capabilities')";
 db.exec(createTable);
 const insertInto = db.prepare(
-  "INSERT INTO ProbeRequestFrames (timestamp, snifferId, SSID, RSSI, MAC_origen, canal, Rates, HTC_Capabilities, Vendor_Specific, Extended_rates, Extended_HTC_Capabilities, VHT_Capabilities) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+  "INSERT INTO ProbeRequestFrames (timestamp, NSeq,snifferId, SSID, RSSI, MAC_origen, canal, Rates, HTC_Capabilities, Vendor_Specific, Extended_rates, Extended_HTC_Capabilities, VHT_Capabilities) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
 );
 
 //=========================MQTT===========================
@@ -163,10 +164,12 @@ function init() {
       wifidata.extendedrates = extendedrates;
       wifidata.extendedhtc = extendedhtc;
       wifidata.vhtcap = vhtcap;
+      wifidata.nseq = nseq;
+      nseq++;
 
       client.publish("CRAIUPCT_WifiData", JSON.stringify(wifidata));
 
-      insertInto.run(date, snifferId, SSID, RSSI, MAC_origen, canal,rate,htccap,vendorspecific,extendedrates,extendedhtc,vhtcap);
+      insertInto.run(date, nseq, snifferId, SSID, RSSI, MAC_origen, canal,rate,htccap,vendorspecific,extendedrates,extendedhtc,vhtcap);
       rate = 0x0
       htccap = 0x0
       vendorspecific='';

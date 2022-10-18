@@ -5,7 +5,7 @@ const Database = require("better-sqlite3");
 const mqtt = require("mqtt");
 var cron = require("node-cron");
 
-
+let nseq = 0;
 /* Timestamp*/
 //Funciones para tomar el instante actual, formato: YYYY-MM-DD HH:MM:SS
 
@@ -38,7 +38,7 @@ const options = {
   password: process.env.id+"_BLE",
 }
 
-const connectUrl = "ws://212.128.44.50:8083/mqtt";
+const connectUrl = "ws://10.147.18.134:8083/mqtt";
 const client = mqtt.connect(connectUrl,options);
 
 client.on("connect", function () {
@@ -164,7 +164,8 @@ function ble_process(buff){
 
       //Num Seq
 
-      dato.nseq = parseInt(chain[90] + chain[91], 16);
+      dato.nseq = nseq; //parseInt(chain[90] + chain[91], 16); smooth criminal
+      nseq++;
 
       dato.timestamp = getFechaCompleta();
 
