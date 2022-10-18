@@ -67,7 +67,7 @@ const createTable =
 db.exec(createTable);
 
 const insertInto = db.prepare(
-  "INSERT INTO ble_data (Id,MAC,TipoMAC,TipoADV,BLE_Size,RSP_Size,BLE_Data,RSSI,Nseq,Timestamp) VALUES (?,?,?,?,?,?,?,?,?,?,?)"
+  "INSERT INTO ble_data (Id,MAC,TipoMAC,TipoADV,BLE_Size,RSP_Size,BLE_Data,RSSI,Nseq,Timestamp) VALUES (?,?,?,?,?,?,?,?,?,?)"
 );
 
 
