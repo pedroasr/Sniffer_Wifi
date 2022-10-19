@@ -1,3 +1,4 @@
+#!/bin/bash
 pm2 stop all
 
 
@@ -6,7 +7,13 @@ echo "Moving databases to folder" > /root/database_change.log
 cd /home/kali/Sniffer_Wifi
 mkdir databases
 
-mv *.db databases
+rm -r databases/today
+
+cp *.db databases
+
+mkdir databases/today
+
+mv *.db databases/today/.
 
 echo "Done!"
 
