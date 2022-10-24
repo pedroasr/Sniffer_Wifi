@@ -7,13 +7,7 @@ echo "Moving databases to folder" > /root/database_change.log
 cd /home/kali/Sniffer_Wifi
 mkdir databases
 
-rm -r databases/today
-
-cp *.db databases
-
-mkdir databases/today
-
-mv *.db databases/today/.
+mv *.db databases/.
 
 echo "Done!"
 
