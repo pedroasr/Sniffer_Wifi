@@ -9,13 +9,9 @@ rm /root/.pm2/logs/app24-11-out.log
 rm /root/.pm2/logs/appBLE-out.log
 
 
+cd /home/kali/Sniffer_Wifi/
 
-#id=$(cat /home/kali/intconfig |grep -oP "id=\K.*")
-#
-#ruta="*DatosBLE_"$id".db"
-#aux=$(ls $ruta)
-
-rm /home/kali/Sniffer_Wifi/databases/*
+rm *.db
 
 pm2 start all
 
