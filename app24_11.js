@@ -211,7 +211,20 @@ setInterval(()=>{
       
 
         client.publish("CRAIUPCT_WifiData", JSON.stringify(ka));
-        insertInto.run(ka.timestamp, ka.nseq, ka.id, ka.ssid, ka.rssi, ka.OrigMAC, ka.canal,ka.rate,ka.htccap,ka.vendorspecific,ka.extendedrates,ka.extendedhtc,ka.vhtcap);
+        insertInto.run(ka.timestamp,
+            ka.nseq,
+            ka.id,
+            ka.ssid, 
+            ka.rssi, 
+            ka.OrigMAC, 
+            ka.canal,
+            ka.rate,
+            ka.htccap,
+            ka.vendorspecific,
+            ka.extendedrates,
+            ka.extendedhtc,
+            ka.vhtcap
+          );
 
 
 
