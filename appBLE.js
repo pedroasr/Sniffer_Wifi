@@ -252,6 +252,19 @@ setInterval(()=>{
       
 
         client.publish("CRAIUPCT_BLEdata", JSON.stringify(ka));
+
+        insertInto.run(
+          ka.id,
+          ka.mac,
+          ka.tipoMac,
+          ka.tipoADV,
+          ka.bleSize,
+          ka.rspSize,
+          ka.bleData,
+          ka.rssi,
+          ka.nseq,
+          ka.timestamp
+        );
         
 
       }
